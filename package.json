@@ -1,47 +1,37 @@
 {
   "name": "st-uy",
   "version": "0.1.0",
-  "private": true,
+  "description": "app para servicio tecnico",
+  "main": "index.js",
   "dependencies": {
-    "@testing-library/jest-dom": "^5.11.4",
-    "@testing-library/react": "^11.1.0",
-    "@testing-library/user-event": "^12.1.10",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "parcel-bundler": "^1.12.5",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "react-scripts": "4.0.3",
-    "web-vitals": "^1.0.1"
+    "react-router-dom": "^5.2.0",
+    "react-router-hash-link": "^2.3.1",
+    "swiper": "^6.4.1",
+    "axios": "^0.21.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.6",
+    "@babel/preset-env": "^7.14.7",
+    "@babel/preset-react": "^7.14.5",
+    "babel-core": "^6.26.3"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "watch-js": "parcel watch --no-source-maps --out-dir ./build ./src/js/corebiz-*.js",
-    "watch-react": "parcel watch --no-source-maps --out-dir ./build ./src/react/*/corebiz-*.js",
-    "server": "live-server --no-browser --watch=\"./build/\" "
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel --no-source-maps --out-dir ./final index.html"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ja54312/Servicio-Tecnico.git"
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  },
-  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
-  "main": "index.js",
-  "devDependencies": {},
-  "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ja54312/Servicio-Tecnico/issues"
+  },
+  "homepage": "https://github.com/ja54312/Servicio-Tecnico#readme"
 }

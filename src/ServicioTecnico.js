@@ -1,9 +1,7 @@
 import React from 'react';
 import ReactDOM from "react-dom";
 import  './ServicioTecnico.css';
-import servicio1 from './arquivos/SERVICE-WEB-03.png'
-import servicio2 from './arquivos/SERVICE-WEB-04.png'
-import servicio3 from './arquivos/SERVICE-WEB-05.png'
+
 
 
 export default function ServicioTecnico(){
@@ -17,23 +15,23 @@ export default function ServicioTecnico(){
         </div>
         <div className="container-logos">
             <div className="logo-one">
-                <img src={servicio1} alt="imagen de horario"/>
+                <img src="./arquivos/SERVICE-WEB-03.png" alt="imagen de horario"/>
                 <p>
-                No necesitás presentar <br/> tu <strong>factura de compra</strong>
+                No necesitás presentar <br/> tu <strong>factura de compra.</strong>
                 </p>
             </div>
             <hr/>
             <div className="logo-two">
-                <img src={servicio2} alt="imagen de calendario"/>
+                <img src="./arquivos/SERVICE-WEB-04.png" alt="imagen de calendario"/>
                 <p>
-                Lo reparamos en <br/>  <strong>menos de 72 horas</strong>
+                Lo reparamos en <br/>  <strong>menos de 72 horas.</strong>
                 </p>
             </div>
             <hr/>
             <div className="logo-three">
-                <img src= {servicio3} alt="imagen de factura"/>
+                <img src="./arquivos/SERVICE-WEB-05.png" alt="imagen de factura"/>
                 <p>
-                Tenés <strong> 90 días de garantía</strong>  <br/> en la reparación
+                Tenés <strong> 90 días de garantía</strong>  <br/> en la reparación.
                 </p>
             </div>
         </div>
