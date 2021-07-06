@@ -29638,7 +29638,13 @@ var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"src/ServicioTecnico.js":[function(require,module,exports) {
+},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"src/arquivos/SERVICE-WEB-03.png":[function(require,module,exports) {
+module.exports = "/SERVICE-WEB-03.7129a3a7.png";
+},{}],"src/arquivos/SERVICE-WEB-04.png":[function(require,module,exports) {
+module.exports = "/SERVICE-WEB-04.5d8ad5d2.png";
+},{}],"src/arquivos/SERVICE-WEB-05.png":[function(require,module,exports) {
+module.exports = "/SERVICE-WEB-05.da5fbfd4.png";
+},{}],"src/ServicioTecnico.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -29652,6 +29658,12 @@ var _reactDom = _interopRequireDefault(require("react-dom"));
 
 require("./CSS/ServicioTecnico.css");
 
+var _SERVICEWEB = _interopRequireDefault(require("./arquivos/SERVICE-WEB-03.png"));
+
+var _SERVICEWEB2 = _interopRequireDefault(require("./arquivos/SERVICE-WEB-04.png"));
+
+var _SERVICEWEB3 = _interopRequireDefault(require("./arquivos/SERVICE-WEB-05.png"));
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function ServicioTecnico() {
@@ -29664,17 +29676,17 @@ function ServicioTecnico() {
   }, /*#__PURE__*/_react.default.createElement("div", {
     className: "logo-one"
   }, /*#__PURE__*/_react.default.createElement("img", {
-    src: "./arquivos/SERVICE-WEB-03.png",
+    src: _SERVICEWEB.default,
     alt: "imagen de horario"
   }), /*#__PURE__*/_react.default.createElement("p", null, "No necesit\xE1s presentar ", /*#__PURE__*/_react.default.createElement("br", null), " tu ", /*#__PURE__*/_react.default.createElement("strong", null, "factura de compra."))), /*#__PURE__*/_react.default.createElement("hr", null), /*#__PURE__*/_react.default.createElement("div", {
     className: "logo-two"
   }, /*#__PURE__*/_react.default.createElement("img", {
-    src: "./arquivos/SERVICE-WEB-04.png",
+    src: _SERVICEWEB2.default,
     alt: "imagen de calendario"
   }), /*#__PURE__*/_react.default.createElement("p", null, "Lo reparamos en ", /*#__PURE__*/_react.default.createElement("br", null), "  ", /*#__PURE__*/_react.default.createElement("strong", null, "menos de 72 horas."))), /*#__PURE__*/_react.default.createElement("hr", null), /*#__PURE__*/_react.default.createElement("div", {
     className: "logo-three"
   }, /*#__PURE__*/_react.default.createElement("img", {
-    src: "./arquivos/SERVICE-WEB-05.png",
+    src: _SERVICEWEB3.default,
     alt: "imagen de factura"
   }), /*#__PURE__*/_react.default.createElement("p", null, "Ten\xE9s ", /*#__PURE__*/_react.default.createElement("strong", null, " 90 d\xEDas de garant\xEDa"), "  ", /*#__PURE__*/_react.default.createElement("br", null), " en la reparaci\xF3n."))), /*#__PURE__*/_react.default.createElement("div", {
     className: "container-centros"
@@ -29692,7 +29704,7 @@ function ServicioTecnico() {
 var entryPointMalta = document.getElementById("root");
 
 _reactDom.default.render( /*#__PURE__*/_react.default.createElement(ServicioTecnico, null), entryPointMalta);
-},{"react":"node_modules/react/index.js","react-dom":"node_modules/react-dom/index.js","./CSS/ServicioTecnico.css":"src/CSS/ServicioTecnico.css"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js","react-dom":"node_modules/react-dom/index.js","./CSS/ServicioTecnico.css":"src/CSS/ServicioTecnico.css","./arquivos/SERVICE-WEB-03.png":"src/arquivos/SERVICE-WEB-03.png","./arquivos/SERVICE-WEB-04.png":"src/arquivos/SERVICE-WEB-04.png","./arquivos/SERVICE-WEB-05.png":"src/arquivos/SERVICE-WEB-05.png"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -29720,7 +29732,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "40465" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "43917" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
