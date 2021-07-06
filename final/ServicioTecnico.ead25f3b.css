@@ -42,13 +42,24 @@ hr {
     width:1px;
     size:500;
 }
+.centros-title{
+    text-transform: uppercase;
+    text-align: center;
+    padding: 10px;
+    font-size: 35px;
+}
+.centros-title strong{
+    color:#9E3B40;
+}
 .container-centros{
     display: flex;
     justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
 }
 .centro-1{
-    height:170px;
-    width: 250px;
+    height:220px;
+    width: 400px;
     background: rgb(6,35,59);
     background: linear-gradient(90deg, rgba(6,35,59,1) 0%, rgba(10,26,46,1) 35%, rgba(8,23,38,1) 100%);
     margin:0 100px;
@@ -78,6 +89,61 @@ hr {
     margin:0 100px;
     text-align: center;
 }
+.section-container {
+    width: 100%;
+    margin: 50px auto;
+    margin: 0 auto;
+}
+.section-container .text-left-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+}
+.section-container .text-left-container__photo{
+    width: 100%;
+}
+.section-container .text-left-container__photo img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.section-container .text-left-container__text{
+    width: 90%;
+    margin: 15px auto;
+}
+.section-container .text-left-container__text--title {
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin: 15px auto;
+}
+.section-container .text-left-container__text--paragraph{
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 18px;
+}
+.section-container .text-left-container__button{
+    margin-top: 20px;
+    display: inline-block;
+    padding: 10px 25px;
+    border-radius: 50px;
+    margin-top: 50px;
+    color: #fff;
+    border: 2px solid #fff;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+}
+@media only screen and (max-width: 425px){
+    .centros-title{
+        font-size: 20px;
+    }
+    .centro-1{
+        font-size: 13px;
+        width: 260px;
+        margin: 0;
+    }
+}
 @media only screen and (max-width: 767px){
 .container-logos {
     font-size: 1rem;
@@ -93,4 +159,56 @@ hr {
 hr {
     height: 80px;
 }
+}
+@media only screen and (min-width: 768px){
+.section-container  {
+    width: 100%;
+    margin: 100px auto;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: start;
+    align-items: center;
+    background-image: url("/lmsa-tool-pdp-hero-d.2431307c.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%; 
+    height: 600px;
+    margin: 0 auto;
+ }
+.section-container .text-left-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: start;
+    align-items: center;
+    flex-direction: row-reverse;
+    width: 28%;
+    margin-left: 12%;
+    text-align: left;
+ } 
+ .section-container .text-left-container__photo{
+    display: none;
+ }
+ .section-container .text-left-container__photo img{
+    max-width: 100%;
+    max-height: 100%;
+ }
+.section-container .text-left-container__text {
+    width: 100%;
+ }
+ .section-container .text-left-container__text--title{
+    font-size: 1.5rem;
+    font-weight: 300px;
+    margin: 15px auto;
+ }
+ .section-container .text-left-container__text--paragraph{
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 300;
+ }
+ .section-container .text-left-container__button {
+    margin-top: 10px;
+ }
 }

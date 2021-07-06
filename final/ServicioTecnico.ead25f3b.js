@@ -29638,12 +29638,14 @@ var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"src/arquivos/SERVICE-WEB-03.png":[function(require,module,exports) {
+},{"/home/ja54312/Documentos/COREBIZ/Servicio tecnico/UY/st-uy/src/arquivos/lmsa-tool-pdp-hero-d.jpg":[["lmsa-tool-pdp-hero-d.2431307c.jpg","src/arquivos/lmsa-tool-pdp-hero-d.jpg"],"src/arquivos/lmsa-tool-pdp-hero-d.jpg"],"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"src/arquivos/SERVICE-WEB-03.png":[function(require,module,exports) {
 module.exports = "/SERVICE-WEB-03.7129a3a7.png";
 },{}],"src/arquivos/SERVICE-WEB-04.png":[function(require,module,exports) {
 module.exports = "/SERVICE-WEB-04.5d8ad5d2.png";
 },{}],"src/arquivos/SERVICE-WEB-05.png":[function(require,module,exports) {
 module.exports = "/SERVICE-WEB-05.da5fbfd4.png";
+},{}],"src/arquivos/lmsa-tool-pdp-hero-m2.jpg":[function(require,module,exports) {
+module.exports = "/lmsa-tool-pdp-hero-m2.710248bb.jpg";
 },{}],"src/ServicioTecnico.js":[function(require,module,exports) {
 "use strict";
 
@@ -29664,6 +29666,8 @@ var _SERVICEWEB2 = _interopRequireDefault(require("./arquivos/SERVICE-WEB-04.png
 
 var _SERVICEWEB3 = _interopRequireDefault(require("./arquivos/SERVICE-WEB-05.png"));
 
+var _lmsaToolPdpHeroM = _interopRequireDefault(require("./arquivos/lmsa-tool-pdp-hero-m2.jpg"));
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function ServicioTecnico() {
@@ -29678,33 +29682,51 @@ function ServicioTecnico() {
   }, /*#__PURE__*/_react.default.createElement("img", {
     src: _SERVICEWEB.default,
     alt: "imagen de horario"
-  }), /*#__PURE__*/_react.default.createElement("p", null, "No necesit\xE1s presentar ", /*#__PURE__*/_react.default.createElement("br", null), " tu ", /*#__PURE__*/_react.default.createElement("strong", null, "factura de compra."))), /*#__PURE__*/_react.default.createElement("hr", null), /*#__PURE__*/_react.default.createElement("div", {
+  }), /*#__PURE__*/_react.default.createElement("p", null, "No necesit\xE1s presentar ", /*#__PURE__*/_react.default.createElement("br", null), " tu ", /*#__PURE__*/_react.default.createElement("strong", null, "factura de compra"))), /*#__PURE__*/_react.default.createElement("hr", null), /*#__PURE__*/_react.default.createElement("div", {
     className: "logo-two"
   }, /*#__PURE__*/_react.default.createElement("img", {
     src: _SERVICEWEB2.default,
     alt: "imagen de calendario"
-  }), /*#__PURE__*/_react.default.createElement("p", null, "Lo reparamos en ", /*#__PURE__*/_react.default.createElement("br", null), "  ", /*#__PURE__*/_react.default.createElement("strong", null, "menos de 72 horas."))), /*#__PURE__*/_react.default.createElement("hr", null), /*#__PURE__*/_react.default.createElement("div", {
+  }), /*#__PURE__*/_react.default.createElement("p", null, "Lo reparamos en ", /*#__PURE__*/_react.default.createElement("br", null), "  ", /*#__PURE__*/_react.default.createElement("strong", null, "menos de 72 horas"))), /*#__PURE__*/_react.default.createElement("hr", null), /*#__PURE__*/_react.default.createElement("div", {
     className: "logo-three"
   }, /*#__PURE__*/_react.default.createElement("img", {
     src: _SERVICEWEB3.default,
     alt: "imagen de factura"
-  }), /*#__PURE__*/_react.default.createElement("p", null, "Ten\xE9s ", /*#__PURE__*/_react.default.createElement("strong", null, " 90 d\xEDas de garant\xEDa"), "  ", /*#__PURE__*/_react.default.createElement("br", null), " en la reparaci\xF3n."))), /*#__PURE__*/_react.default.createElement("div", {
+  }), /*#__PURE__*/_react.default.createElement("p", null, "Ten\xE9s ", /*#__PURE__*/_react.default.createElement("strong", null, " 90 d\xEDas de garant\xEDa"), "  ", /*#__PURE__*/_react.default.createElement("br", null), " en la reparaci\xF3n"))), /*#__PURE__*/_react.default.createElement("h2", {
+    className: "centros-title"
+  }, /*#__PURE__*/_react.default.createElement("strong", null, "Centros"), " de Servicio"), /*#__PURE__*/_react.default.createElement("div", {
     className: "container-centros"
   }, /*#__PURE__*/_react.default.createElement("div", {
     className: "centro-1"
-  }, /*#__PURE__*/_react.default.createElement("h3", null, "A-NOVO"), /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("span", null, /*#__PURE__*/_react.default.createElement("strong", null, "(Movistar)")), /*#__PURE__*/_react.default.createElement("p", null, "Durazno 1334"), /*#__PURE__*/_react.default.createElement("span", {
+  }, /*#__PURE__*/_react.default.createElement("h3", null, "Santiago"), /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("span", null, /*#__PURE__*/_react.default.createElement("strong", null, "Tudcom")), " ", /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("span", null, "Monse\xF1or Sotero Sanz 55, piso 2. Providencia"), /*#__PURE__*/_react.default.createElement("p", null, "Horario: Lunes -Viernes 10:30hrs am a 17:00hrs ", /*#__PURE__*/_react.default.createElement("br", null), " Atenci\xF3n clientes presenciales"), /*#__PURE__*/_react.default.createElement("span", {
     className: "number-contact"
-  }, /*#__PURE__*/_react.default.createElement("strong", null, "2908 7003"))), /*#__PURE__*/_react.default.createElement("div", {
-    className: "centro-2"
-  }, /*#__PURE__*/_react.default.createElement("h3", null, "BGH"), /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("span", null, /*#__PURE__*/_react.default.createElement("strong", null, "(Antel, Claro, Retail)")), /*#__PURE__*/_react.default.createElement("p", null, "Mercedes 935"), /*#__PURE__*/_react.default.createElement("span", {
+  }, /*#__PURE__*/_react.default.createElement("strong", null, " 56-22 471 70 94")), /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("span", {
     className: "number-contact"
-  }, /*#__PURE__*/_react.default.createElement("strong", null, "2903 1876"))))));
+  }, /*#__PURE__*/_react.default.createElement("strong", null, " contacto@tudcom.cl")))), /*#__PURE__*/_react.default.createElement("div", {
+    className: "section-container"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "text-left-container"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "text-left-container__photo"
+  }, /*#__PURE__*/_react.default.createElement("img", {
+    src: _lmsaToolPdpHeroM.default,
+    className: "text-left-container__photo--image"
+  })), /*#__PURE__*/_react.default.createElement("div", {
+    className: "text-left-container__text"
+  }, /*#__PURE__*/_react.default.createElement("h2", {
+    className: "text-left-container__text--title"
+  }, " Herramienta de Recuperaci\xF3n y Asistente Inteligente (HRAI) "), /*#__PURE__*/_react.default.createElement("p", {
+    className: "text-left-container__text--paragraph"
+  }, " Nuestra Herramienta de Recuperaci\xF3n y Asistente Inteligente (HRAI) puede ayudar a diagnosticar y resolver problemas con tu tel\xE9fono Motorola o tu tablet Lenovo.  "), /*#__PURE__*/_react.default.createElement("a", {
+    href: "https://support.lenovo.com/mx/es/downloads/ds101291",
+    className: "text-left-container__button"
+  }, "Descargar"))))));
 }
 
 var entryPointMalta = document.getElementById("root");
 
 _reactDom.default.render( /*#__PURE__*/_react.default.createElement(ServicioTecnico, null), entryPointMalta);
-},{"react":"node_modules/react/index.js","react-dom":"node_modules/react-dom/index.js","./CSS/ServicioTecnico.css":"src/CSS/ServicioTecnico.css","./arquivos/SERVICE-WEB-03.png":"src/arquivos/SERVICE-WEB-03.png","./arquivos/SERVICE-WEB-04.png":"src/arquivos/SERVICE-WEB-04.png","./arquivos/SERVICE-WEB-05.png":"src/arquivos/SERVICE-WEB-05.png"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js","react-dom":"node_modules/react-dom/index.js","./CSS/ServicioTecnico.css":"src/CSS/ServicioTecnico.css","./arquivos/SERVICE-WEB-03.png":"src/arquivos/SERVICE-WEB-03.png","./arquivos/SERVICE-WEB-04.png":"src/arquivos/SERVICE-WEB-04.png","./arquivos/SERVICE-WEB-05.png":"src/arquivos/SERVICE-WEB-05.png","./arquivos/lmsa-tool-pdp-hero-m2.jpg":"src/arquivos/lmsa-tool-pdp-hero-m2.jpg"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -29732,7 +29754,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "43917" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "44495" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
