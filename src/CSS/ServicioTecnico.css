@@ -94,3 +94,14 @@ hr {
     height: 80px;
 }
 }
+@media screen and (max-width: 425px){
+    .container-centros{
+        flex-flow:wrap;
+    }
+    .centro-1{
+        margin: 15px 50px;
+    }
+    .centro-2{
+        margin: 0px 50px;
+    }
+}
