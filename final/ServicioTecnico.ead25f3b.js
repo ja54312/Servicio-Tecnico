@@ -29566,136 +29566,28 @@ if ("development" === 'production') {
 } else {
   module.exports = require('./cjs/react-dom.development.js');
 }
-},{"./cjs/react-dom.development.js":"node_modules/react-dom/cjs/react-dom.development.js"}],"node_modules/parcel-bundler/src/builtins/bundle-url.js":[function(require,module,exports) {
-var bundleURL = null;
-
-function getBundleURLCached() {
-  if (!bundleURL) {
-    bundleURL = getBundleURL();
-  }
-
-  return bundleURL;
-}
-
-function getBundleURL() {
-  // Attempt to find the URL of the current script and use that as the base URL
-  try {
-    throw new Error();
-  } catch (err) {
-    var matches = ('' + err.stack).match(/(https?|file|ftp|chrome-extension|moz-extension):\/\/[^)\n]+/g);
-
-    if (matches) {
-      return getBaseURL(matches[0]);
-    }
-  }
-
-  return '/';
-}
-
-function getBaseURL(url) {
-  return ('' + url).replace(/^((?:https?|file|ftp|chrome-extension|moz-extension):\/\/.+)?\/[^/]+(?:\?.*)?$/, '$1') + '/';
-}
-
-exports.getBundleURL = getBundleURLCached;
-exports.getBaseURL = getBaseURL;
-},{}],"node_modules/parcel-bundler/src/builtins/css-loader.js":[function(require,module,exports) {
-var bundle = require('./bundle-url');
-
-function updateLink(link) {
-  var newLink = link.cloneNode();
-
-  newLink.onload = function () {
-    link.remove();
-  };
-
-  newLink.href = link.href.split('?')[0] + '?' + Date.now();
-  link.parentNode.insertBefore(newLink, link.nextSibling);
-}
-
-var cssTimeout = null;
-
-function reloadCSS() {
-  if (cssTimeout) {
-    return;
-  }
-
-  cssTimeout = setTimeout(function () {
-    var links = document.querySelectorAll('link[rel="stylesheet"]');
-
-    for (var i = 0; i < links.length; i++) {
-      if (bundle.getBaseURL(links[i].href) === bundle.getBundleURL()) {
-        updateLink(links[i]);
-      }
-    }
-
-    cssTimeout = null;
-  }, 50);
-}
-
-module.exports = reloadCSS;
-},{"./bundle-url":"node_modules/parcel-bundler/src/builtins/bundle-url.js"}],"src/CSS/ServicioTecnico.css":[function(require,module,exports) {
-var reloadCSS = require('_css_loader');
-
-module.hot.dispose(reloadCSS);
-module.hot.accept(reloadCSS);
-},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"src/ServicioTecnico.js":[function(require,module,exports) {
+},{"./cjs/react-dom.development.js":"node_modules/react-dom/cjs/react-dom.development.js"}],"src/ServicioTecnico.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.default = ServicioTecnico;
+exports.default = EdgeLite;
 
 var _react = _interopRequireDefault(require("react"));
 
 var _reactDom = _interopRequireDefault(require("react-dom"));
 
-require("./CSS/ServicioTecnico.css");
-
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-// import Servicio1 from './arquivos/SERVICE-WEB-03.png';
-// import Servicio2 from './arquivos/SERVICE-WEB-04.png';
-// import Servicio3 from './arquivos/SERVICE-WEB-05.png';
-function ServicioTecnico() {
-  return /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, /*#__PURE__*/_react.default.createElement("div", {
-    className: "Servicio-Tecncico"
-  }, /*#__PURE__*/_react.default.createElement("div", {
-    className: "title"
-  }, /*#__PURE__*/_react.default.createElement("h1", null, /*#__PURE__*/_react.default.createElement("strong", null, "servicio"), " t\xE9cnico autorizado")), /*#__PURE__*/_react.default.createElement("div", {
-    className: "container-logos"
-  }, /*#__PURE__*/_react.default.createElement("div", {
-    className: "logo-one"
-  }, /*#__PURE__*/_react.default.createElement("img", {
-    src: "./arquivos/SERVICE-WEB-03.png",
-    alt: "imagen de horario"
-  }), /*#__PURE__*/_react.default.createElement("p", null, "No necesit\xE1s presentar ", /*#__PURE__*/_react.default.createElement("br", null), " tu ", /*#__PURE__*/_react.default.createElement("strong", null, "factura de compra."))), /*#__PURE__*/_react.default.createElement("hr", null), /*#__PURE__*/_react.default.createElement("div", {
-    className: "logo-two"
-  }, /*#__PURE__*/_react.default.createElement("img", {
-    src: "./arquivos/SERVICE-WEB-04.png",
-    alt: "imagen de calendario"
-  }), /*#__PURE__*/_react.default.createElement("p", null, "Lo reparamos en ", /*#__PURE__*/_react.default.createElement("br", null), "  ", /*#__PURE__*/_react.default.createElement("strong", null, "menos de 72 horas."))), /*#__PURE__*/_react.default.createElement("hr", null), /*#__PURE__*/_react.default.createElement("div", {
-    className: "logo-three"
-  }, /*#__PURE__*/_react.default.createElement("img", {
-    src: "./arquivos/SERVICE-WEB-05.png",
-    alt: "imagen de factura"
-  }), /*#__PURE__*/_react.default.createElement("p", null, "Ten\xE9s ", /*#__PURE__*/_react.default.createElement("strong", null, " 90 d\xEDas de garant\xEDa"), "  ", /*#__PURE__*/_react.default.createElement("br", null), " en la reparaci\xF3n."))), /*#__PURE__*/_react.default.createElement("div", {
-    className: "container-centros"
-  }, /*#__PURE__*/_react.default.createElement("div", {
-    className: "centro-1"
-  }, /*#__PURE__*/_react.default.createElement("h3", null, "A-NOVO"), /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("span", null, /*#__PURE__*/_react.default.createElement("strong", null, "(Antel, Claro, Retail)")), /*#__PURE__*/_react.default.createElement("p", null, "Durazno 1334"), /*#__PURE__*/_react.default.createElement("span", {
-    className: "number-contact"
-  }, /*#__PURE__*/_react.default.createElement("strong", null, "2908 7003"))), /*#__PURE__*/_react.default.createElement("div", {
-    className: "centro-2"
-  }, /*#__PURE__*/_react.default.createElement("h3", null, "BGH"), /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("span", null, /*#__PURE__*/_react.default.createElement("strong", null, "(Movistar)")), /*#__PURE__*/_react.default.createElement("p", null, "Mercedes 935"), /*#__PURE__*/_react.default.createElement("span", {
-    className: "number-contact"
-  }, /*#__PURE__*/_react.default.createElement("strong", null, "2903 1876"))))));
+function EdgeLite() {
+  return /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null);
 }
 
 var entryPointMalta = document.getElementById("root");
 
-_reactDom.default.render( /*#__PURE__*/_react.default.createElement(ServicioTecnico, null), entryPointMalta);
-},{"react":"node_modules/react/index.js","react-dom":"node_modules/react-dom/index.js","./CSS/ServicioTecnico.css":"src/CSS/ServicioTecnico.css"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+_reactDom.default.render( /*#__PURE__*/_react.default.createElement(EdgeLite, null), entryPointMalta);
+},{"react":"node_modules/react/index.js","react-dom":"node_modules/react-dom/index.js"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -29723,7 +29615,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "35189" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "43225" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

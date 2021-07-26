@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: auto;
+    height: 84px;
+    background: #20212E 0% 0% no-repeat padding-box;
+    opacity: 0.90;
+    backdrop-filter: blur(30px);
+}
+.Logo-header-container{
+    position: absolute;
+    top: 26px;
+    left: 80px;
+    width: 124px;
+    height: 32px;
+    color: white;
+    background: transparent url('/src/arquivos/Grupo_2196.svg') 0% 0% no-repeat padding-box;
+}
+nav{
+    position:absolute;
+    width:2560px;
+    height:86px;
+}
+.li-1{
+    position: inherit;
+    top: 36px;
+    left: 816px;
+    width: 66px;
+    height: 16px;
+    text-align: center;
+    font: normal normal normal 16px/19px Gotham;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
