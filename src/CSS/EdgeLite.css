@@ -2,6 +2,7 @@
 *{
     margin: 0;
     padding: 0;
+    background-color:#000A13;
 }
 /*---Header---*/
 header{
@@ -267,11 +268,9 @@ li{
 }
 /*--Edge-Colors--*/
 .container-edge-colors{
-    display: flex;
     height: 674px;
-    background: url('/src/arquivos/Grupo_2246.svg');
+    background: url('/src/arquivos/Enmascarar_grupo_104.png');
     padding-top: 110px;
-    margin-left: -1px;
 }
 .container-text-edge-colors{
     width: 30%;
@@ -303,7 +302,6 @@ li{
 /*--Edge-Camera--*/
 .container-edge-camera{
     height: 768px;
-    background: url('/src/arquivos/Grupo_2246.svg');
     padding-top: 110px;
     margin-left: -1px;
 }
@@ -347,4 +345,36 @@ li{
 }
 .container-specs-edge-camera span{
     font-size: 12px;
+}
+/*--Edge-Periscope--*/
+.container-periscope{
+    display: flex;
+    height: 768px;
+}
+.periscope-image{
+    width: 50%;
+    background: url('/src/arquivos/Enmascarar_grupo_2188.png');
+}
+.periscope-text-container{
+    width: 50%;
+}
+.title-periscope{
+    padding-bottom: 38px;
+    padding-top: 324px;
+}
+.title-periscope span{
+    width: 236px;
+    height: 36px;
+    font-family: 'Gotham';
+    font-weight: normal;
+    font-size: 36px;
+    color: #FFFFFF;
+}
+.text-periscope p{
+    width: 527px;
+    height: 53px;
+    font-family: 'Gotham';
+    font-weight: normal;
+    font-size: 24px;
+    color: #FFFFFF;
 }
