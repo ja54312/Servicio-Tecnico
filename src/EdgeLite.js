@@ -66,8 +66,36 @@ export default function EdgeLite(){
                 </div>
             </section>
             <section className="container-edge-colors">
-                <div className="container-text-edge-colors"></div>
+                <div className="container-text-edge-colors">
+                    <div className="container-logo-edge-colors"></div>
+                    <div className="container-text-edge-colors-text">
+                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod, ipsum dolor sit, consetetur sadipscing elitr, sed diam nonumy eirmod</p>
+                    </div>
+                </div>
                 <div className="container-image-edge-colors"></div>
+            </section>
+            <section className="container-edge-camera">
+                <div className="container-text-edge-camera">
+                    <div className="Logo-edge-camera"></div>
+                    <div className="text-edge-camera">
+                        <span>Lorem ipsum dolor sit amet.</span>
+                    </div>
+                    <div className="container-specs-edge-camera">
+                        <div className="specs-edge-camera-1">
+                            <ul>
+                                <li>108 MP main sensor <br></br> <span>(12MP, 2.1um Ultra Pixel) f/1.9</span> </li>
+                                <li>16MP ultrawide + macro</li>
+                                <li>8MP 5X telephoto, OIS</li>
+                            </ul>
+                        </div> 
+                        <div className="specs-edge-camera-2">
+                        <ul>
+                                <li>50x super zoom</li>
+                                <li>HDR10 video</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </section>
         </body>
         <footer></footer>

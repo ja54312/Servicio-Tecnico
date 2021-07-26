@@ -60,6 +60,7 @@ li{
 .Section-sku-selector{
     display: flex;
     background-color: #000A13;
+    padding-bottom: 110px;
 }
 /*-Sku-Selector-info-*/
 .Sku-selector-info{
@@ -263,4 +264,87 @@ li{
     width: 40px;
     height: 40px;
     background: transparent url('/src/arquivos/Sustracción_6.svg') 0% 0% no-repeat padding-box;
+}
+/*--Edge-Colors--*/
+.container-edge-colors{
+    display: flex;
+    height: 674px;
+    background: url('/src/arquivos/Grupo_2246.svg');
+    padding-top: 110px;
+    margin-left: -1px;
+}
+.container-text-edge-colors{
+    width: 30%;
+}
+.container-logo-edge-colors{
+    position: absolute;
+    top: 1045px;
+    left: 80px;
+    width: 124px;
+    height: 32px;
+    background: transparent url('/src/arquivos/Grupo_2196.svg') 0% 0% no-repeat padding-box;
+}
+.container-text-edge-colors-text{
+    position: absolute;
+    top: 1101px;
+    left: 80px;
+}
+.container-text-edge-colors-text p{
+    width: 458px;
+    height: 67px;
+    font-family: 'Gotham';
+    font-weight: normal;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+.container-image-edge-colors{
+    width: 70%;
+}
+/*--Edge-Camera--*/
+.container-edge-camera{
+    height: 768px;
+    background: url('/src/arquivos/Grupo_2246.svg');
+    padding-top: 110px;
+    margin-left: -1px;
+}
+.container-text-edge-camera{
+    position: absolute;
+    top: 1568px;
+    left: 727px;
+    width: 441px;
+    height: 258px;
+}
+.Logo-edge-camera{
+    background: transparent url('/src/arquivos/Grupo_2196.svg') 0% 0% no-repeat padding-box;
+    width: 130px;
+    height: 33px;
+}
+.text-edge-camera{
+    padding-top: 27.93px;
+}
+.text-edge-camera span{
+    width: 364px;
+    height: 20px;
+    font-family: 'Gotham';
+    font-weight: normal;
+    font-size: 21px;
+    color: #FFFFFF;
+}
+.container-specs-edge-camera{
+    display: flex;
+    padding-top: 23.88px;
+}
+.specs-edge-camera-1{
+    width: 50%;
+}
+.specs-edge-camera-2{
+    width: 50%;
+}
+.container-specs-edge-camera li{
+    padding-bottom: 19px;
+    color:#FFFFFF;
+    font-size: 16px;
+}
+.container-specs-edge-camera span{
+    font-size: 12px;
 }
