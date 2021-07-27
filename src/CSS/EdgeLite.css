@@ -2,7 +2,6 @@
 *{
     margin: 0;
     padding: 0;
-    background-color:#000A13;
 }
 /*---Header---*/
 header{
@@ -269,8 +268,7 @@ li{
 /*--Edge-Colors--*/
 .container-edge-colors{
     height: 674px;
-    background: url('/src/arquivos/Enmascarar_grupo_104.png');
-    padding-top: 110px;
+    background: url('/src/arquivos/Grupo_2246.svg') 0% 0% no-repeat padding-box;
 }
 .container-text-edge-colors{
     width: 30%;
@@ -297,13 +295,24 @@ li{
     color: #FFFFFF;
 }
 .container-image-edge-colors{
-    width: 70%;
+    width: 100%;
+}
+.image-edge-colors{
+    background: url('/src/arquivos/Enmascarar_grupo_104.png');
+    height: 674px;
 }
 /*--Edge-Camera--*/
 .container-edge-camera{
     height: 768px;
-    padding-top: 110px;
-    margin-left: -1px;
+    background: #000A13;
+}
+.container-image-edge-camera{
+    width: 50%;
+}
+.image-edge-camera{
+   position: absolute;
+   top: 587px;
+   left: -521px;
 }
 .container-text-edge-camera{
     position: absolute;
@@ -350,6 +359,7 @@ li{
 .container-periscope{
     display: flex;
     height: 768px;
+    background-color:#000A13;
 }
 .periscope-image{
     width: 50%;

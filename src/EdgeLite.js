@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from "react-dom";
 import './CSS/EdgeLite.css';
+import img from './arquivos/Grupo_2186.png';
 
 
 
@@ -72,9 +73,14 @@ export default function EdgeLite(){
                     <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod, ipsum dolor sit, consetetur sadipscing elitr, sed diam nonumy eirmod</p>
                     </div>
                 </div>
-                <div className="container-image-edge-colors"></div>
+                <div className="container-image-edge-colors">
+                    <div className="image-edge-colors"></div>
+                </div>
             </section>
             <section className="container-edge-camera">
+                <div className="container-image-edge-camera">
+                        <img src={img} className="image-edge-camera"></img>
+                </div>
                 <div className="container-text-edge-camera">
                     <div className="Logo-edge-camera"></div>
                     <div className="text-edge-camera">
