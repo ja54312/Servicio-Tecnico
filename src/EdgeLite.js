@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from "react-dom";
 import './CSS/EdgeLite.css';
 import img from './arquivos/Grupo_2186.png';
+import slide from './arquivos/Grupo_2180.png';
 
 
 
@@ -114,6 +115,51 @@ export default function EdgeLite(){
                     </div>
                 </div>
             </section>
+            <section className="slide-edge">
+                    <div className="slide-text">
+                        <span className="slide-title">Capture amazing shots</span><br></br><br></br>
+                        <span className="slide-subtitle">Lorem ipsum dolor sit amet consectetur sed do eismod, du lorem ipsum.</span>
+                    </div>
+                    <div className="slider">
+                    <span className="flecha-izq-slide"></span>
+                        <img src={slide}></img>
+                    <span className="flecha-der-slide"></span>
+                    </div>
+            </section>
+            <section className="container-edge-video">
+                <div className="container-edge-video-title">
+                    <span className="edge-video-title">Super smooth display</span><br></br><br></br>
+                    <span className="edge-video-subtitle">Get up to 144Hz display for your content consumption needs.</span>
+                </div>
+                <div className="edge-video">
+                    <video src="https://vimeo.com/578074333/b0fa00ea4f" className="video-1"></video>
+                </div>
+            </section>
+            <section className="container-edge-specs">
+                <div className="div-specs">
+                    <span className="title-specs">Lorem ipsum dolor sit</span><br></br><br></br>
+                    <span className="subtitle-specs">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span>
+                </div>
+                <div className="div-porcentaje">
+                <span className="span-porcentaje">12%</span> 
+                <span className="span-porcentaje">34%</span> 
+                <span className="span-porcentaje">56%</span> 
+                <span className="span-porcentaje">144Hz</span> 
+                </div>
+                <div className="div-porcentaje-specs">
+                <span className="span-porcentaje-specs">Ut enim ad minim veniam,</span> 
+                <span className="span-porcentaje-specs">Minim veniam, Ut enim ad</span> 
+                <span className="span-porcentaje-specs">Ut enim ad minim veniam,</span> 
+                <span className="span-porcentaje-specs">Minim veniam, Ut enim ad,</span> 
+                </div>
+            </section>
+            <section className="slider-readyfor"></section>
+            <section className="next-generation"></section>
+            <section className="beuty"></section>
+            <section className="batery-life"></section>
+            <section className="image-specs"></section>
+            <section className="specifications"></section>
+
         </body>
         <footer></footer>
    

@@ -308,6 +308,7 @@ li{
 }
 .container-image-edge-camera{
     width: 50%;
+    background-image: url('/src//arquivos/Grupo_2186.png');
 }
 .image-edge-camera{
    position: absolute;
@@ -387,4 +388,133 @@ li{
     font-weight: normal;
     font-size: 24px;
     color: #FFFFFF;
+}
+/*--Edge-Slide--*/
+.slide-edge{
+    height: 768px;
+    background-color:#000A13;
+}
+.slide-text{
+    position: absolute;
+    left:34%;
+}
+.slide-title{
+    width: 494px;
+    height: 48px;
+    font-family: 'Gotham';
+    font-weight: normal;
+    font-size: 48px;
+    color: #FFFFFF;
+}
+.slide-subtitle{
+    width: 512px;
+    height: 16px;
+    font-family: 'Gotham';
+    font-weight: normal;
+    font-size: 16px;
+    color: #FFFFFF;
+    padding-top: 28px;
+}
+.slider{
+    width: 785px;
+    height: 461px;
+    position: absolute;
+    left: 25%;
+    top:973%;
+}
+.flecha-izq-slide{
+    position: absolute;
+    top: 241px;
+    left: -76px;
+    width: 40px;
+    height: 40px;
+    background: transparent url('/src/arquivos/Sustracción_5.svg') ;
+}
+.flecha-der-slide{
+    position: absolute;
+    top: 256px;
+    left: 813px;
+    width: 40px;
+    height: 40px;
+    background: transparent url('/src/arquivos//Sustracción_6.svg') ;
+}
+/*--Edge-Video--*/
+.container-edge-video{
+    height: 1457px;
+    background-color:#000A13;
+}
+.container-edge-video-title{
+    position: absolute;
+    left: 34%;
+}
+.edge-video-title{
+    width: 462px;
+    height: 48px;
+    font-family: 'Gotham';
+    font-weight: normal;
+    font-size: 48px;
+    color: #FFFFFF;
+}
+.edge-video-subtitle{
+    width: 438px;
+    height: 16px;
+    font-family: 'Gotham';
+    font-weight: normal;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+.edge-video{
+    height: 879px;
+    padding-top: 213px;
+}
+.video-1{
+    height: 879px;
+}
+/*--Edge-Specs--*/
+.container-edge-specs{
+    height: 365px;
+    background-color: #000A13;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.title-specs{
+    width: 882px;
+    height: 55px;
+    font-family: 'Gotham';
+    font-weight: normal;
+    font-size: 46px;
+    color: #FFFFFF;
+}
+.subtitle-specs{
+    width: 882px;
+    height: 14px;
+    font-family: 'Gotham';
+    font-weight: normal;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+.div-porcentaje{
+    width: 814px;
+    height: 45px; 
+    display: flex;
+    justify-content: space-between; 
+}
+.span-porcentaje{
+    color:#64A1E0;
+    font-family: 'Gotham';
+    font-weight: normal;
+    font-size: 46px;
+}
+.div-porcentaje-specs{
+    width: 814px;
+    height: 45px; 
+    display: flex;
+    justify-content: space-between; 
+}
+.span-porcentaje-specs{
+    color:#FFFFFF;
+    font-family: 'Gotham';
+    font-weight: normal;
+    font-size: 14px;
 }
