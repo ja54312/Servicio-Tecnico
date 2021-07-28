@@ -436,7 +436,7 @@ li{
     left: 813px;
     width: 40px;
     height: 40px;
-    background: transparent url('/src/arquivos//Sustracción_6.svg') ;
+    background: transparent url('/src/arquivos/Sustracción_6.svg') ;
 }
 /*--Edge-Video--*/
 .container-edge-video{
@@ -517,4 +517,17 @@ li{
     font-family: 'Gotham';
     font-weight: normal;
     font-size: 14px;
+}
+/*--Slider-Readyfor--*/
+.slider-readyfor{
+    width: 1366px;
+    height: 907px;
+    background-color: #000A13;
+    display: flex;
+    justify-content: space-around;
+}
+.slide-readyfor button{
+        border-radius: 0% !important;
+        width: 40px;
+        height: 0px;
 }
