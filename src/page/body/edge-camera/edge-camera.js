@@ -1,6 +1,6 @@
 import React from 'react';
 import './edge-camera.css';
-import img from '../../../arquivos/Grupo_2186.png';
+import img from '../../../arquivos/Grupo_105.png';
 
 
 

@@ -13,6 +13,10 @@
 .container-video-batery{
     width: 50%;
 }
+.container-video-batery iframe{
+    width: 683px;
+    height: 683px;
+}
 .title-batery{
     width: 291px;
     height: 106px;

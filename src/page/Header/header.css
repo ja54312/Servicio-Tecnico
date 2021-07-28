@@ -50,3 +50,15 @@ li{
     border-radius: 4px;
     cursor: pointer;
 }
+
+/*---Responsive---*/
+/* @media screen and (min-width:1441px) {
+    nav{
+        left: 1206px;
+    }
+}
+@media screen and (min-width:1025px) {
+    nav{
+        left: 60px;
+    }
+} */

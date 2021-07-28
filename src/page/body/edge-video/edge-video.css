@@ -1,6 +1,6 @@
 /*--Edge-Video--*/
 .container-edge-video{
-    height: 1457px;
+    height: 800px;
     background-color:#000A13;
 }
 .container-edge-video-title{
@@ -25,7 +25,6 @@
 }
 .edge-video{
     height: 879px;
-    padding-top: 213px;
     display: flex;
     justify-content: space-around;
 }

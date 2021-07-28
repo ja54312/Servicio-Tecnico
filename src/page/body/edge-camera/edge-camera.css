@@ -5,12 +5,6 @@
 }
 .container-image-edge-camera{
     width: 50%;
-    background-image: url('/src//arquivos/Grupo_2186.png');
-}
-.image-edge-camera{
-   position: absolute;
-   top: 587px;
-   left: -521px;
 }
 .container-text-edge-camera{
     position: absolute;

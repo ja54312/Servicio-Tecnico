@@ -31,17 +31,14 @@
     font-size: 14px;
     color: #FFFFFF;
 }
-.wifi6{
-    width: 776px;
-    height: 160px;
-    background: url('../../../arquivos/Grupo_2107.svg');
-}
 .ondas-speed{
     height: 275px;
     background:transparent url('../../../arquivos/Enmascarar_2206.svg');
+    margin-top: -205px;
 }
 .cel-speed{
     width: 469px;
     height: 492px;
-    background: url('../../../arquivos/Enmascarar_2205.png');
+    background: url('../../../arquivos/Enmascarar_grupo_2229.png') no-repeat;
+    margin-left: 32%;
 }
