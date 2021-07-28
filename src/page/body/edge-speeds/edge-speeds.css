@@ -1,0 +1,47 @@
+/*--edge-speed--*/
+.edge-speed-section{
+    height: 768px;
+    background-color: #000A13;
+    display: flex;
+    flex-direction: column;
+}
+.container-text-speed{
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.container-images-speed{
+    height: 70%;
+}
+.title-speed{
+    width: 530px;
+    height: 48px;
+    font-family: 'Gotham';
+    font-weight: normal;
+    font-size: 48px;
+    color: #FFFFFF;
+}
+.subtitle-speed{
+    width: 711px;
+    height: 59px;
+    font-family: 'Gotham';
+    font-weight: normal;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+.wifi6{
+    width: 776px;
+    height: 160px;
+    background: url('../../../arquivos/Grupo_2107.svg');
+}
+.ondas-speed{
+    height: 275px;
+    background:transparent url('../../../arquivos/Enmascarar_2206.svg');
+}
+.cel-speed{
+    width: 469px;
+    height: 492px;
+    background: url('../../../arquivos/Enmascarar_2205.png');
+}

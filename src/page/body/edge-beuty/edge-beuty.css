@@ -1,0 +1,38 @@
+.section-beuty{
+    height: 757px;
+    background-color: #000A13;
+    display: flex;
+    flex-direction: column;
+}
+.container-text-beuty{
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.title-beuty{
+    width: 478px;
+    height: 120px;
+    font-family: 'Gotham';
+    font-weight: normal;
+    font-size: 48px;
+    color: #FFFFFF;
+}
+.subtitle-beuty{
+    width: 880px;
+    height: 39px;
+    font-family: 'Gotham';
+    font-weight: normal;
+    font-size: 14px;
+    color: #FFFFFF;
+    padding-left: 329px;
+}
+.container-images-beuty{
+    height: 70%;
+}
+.beuty-image{
+    width: 1150px;
+    height: 439px;
+    background: url('../../../arquivos/Grupo_2212.png');
+}

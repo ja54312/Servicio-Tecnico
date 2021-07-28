@@ -11,6 +11,7 @@ import EdgeVideo from './page/body/edge-video/edge-video';
 import EdgeSpecs from './page/body/edge-specs/edge-specs';
 import SlideReadyFor from './page/body/slide-readyfor/slide-readyfor';
 import EdgeSpeed from './page/body/edge-speeds/edge-speeds';
+import EdgeBeuty from './page/body/edge-beuty/edge-beuty';
 
 
 
@@ -32,7 +33,7 @@ export default function EdgeLite(){
             <EdgeSpecs/>
             <SlideReadyFor/>
             <EdgeSpeed/>
-            <section className="beuty"></section>
+            <EdgeBeuty/>
             <section className="batery-life"></section>
             <section className="image-specs"></section>
             <section className="specifications"></section>
