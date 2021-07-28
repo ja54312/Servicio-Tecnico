@@ -12,7 +12,9 @@ import EdgeSpecs from './page/body/edge-specs/edge-specs';
 import SlideReadyFor from './page/body/slide-readyfor/slide-readyfor';
 import EdgeSpeed from './page/body/edge-speeds/edge-speeds';
 import EdgeBeuty from './page/body/edge-beuty/edge-beuty';
-
+import EdgeBatery from './page/body/edge-batery/edge-batery';
+import ImageSpecs from './page/body/image-specs/image-specs';
+import Specifications from './page/body/specifications/specifications';
 
 
 
@@ -34,9 +36,9 @@ export default function EdgeLite(){
             <SlideReadyFor/>
             <EdgeSpeed/>
             <EdgeBeuty/>
-            <section className="batery-life"></section>
-            <section className="image-specs"></section>
-            <section className="specifications"></section>
+            <EdgeBatery/>
+            <ImageSpecs/>
+            <Specifications/>
         </body>
         <footer></footer>
    

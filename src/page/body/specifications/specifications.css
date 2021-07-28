@@ -1,0 +1,116 @@
+/*--Specifications--*/
+.section-specifications{
+    height: 1455px;
+    background: #000A13;
+    display: flex;
+    flex-direction: column;
+}
+.container-title{
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.title-specifications{
+    width: 222px;
+    height: 36px;
+    font-family: 'Gotham';
+    font-weight: normal;
+    font-size: 36px;
+    color: #FFFFFF;
+    padding-left: 80px;
+}
+.container-table{
+    height: 90%;
+}
+/*-Images-table-*/
+.div-images-table{
+    height: 256px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.image-empty{
+    width: 181px;
+    height: 256px;    
+}
+.image-table-1{
+    background: url('../../../arquivos/Enmascarar_2216.png');
+    width: 181px;
+    height: 256px;
+}
+.image-table-2{
+    background: url('../../../arquivos/Enmascarar_2219.png');
+    width: 181px;
+    height: 256px;
+}
+.image-table-3{
+    background: url('../../../arquivos/Enmascarar_2222.png');
+    width: 181px;
+    height: 256px;
+}
+/*-Performance-table-*/
+.div-performance-table{
+    display: flex;
+    justify-content: space-evenly;
+    height: 256px;
+}
+.title-performance{
+    width: 181px;
+    height: 256px;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.title-performance span{
+    width: 120px;
+    height: 21px;
+    font-family: 'Gotham';
+    font-weight: normal;
+    font-size: 21px;
+    color: #FFFFFF;
+}
+.performance-specs1,
+.performance-specs2,
+.performance-specs3{
+    width: 181px;
+    height: 256px;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.specs-SO{
+    width: 236px;
+    height: 56px;
+    font-family: 'Gotham';
+    font-weight: normal;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+.specs-procesador{
+    width: 202px;
+    height: 14px;
+    font-family: 'Gotham';
+    font-weight: normal;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+/*-System-table-*/
+.div-system-table{
+    display: flex;
+    justify-content: space-evenly;
+    height: 256px;
+}
+/*-Network-table-*/
+.div-network-table{
+    display: flex;
+    justify-content: space-evenly;
+    height: 256px;
+}
+/*-Features-table-*/
+.div-features-table{
+    display: flex;
+    justify-content: space-evenly;
+    height: 256px;
+}

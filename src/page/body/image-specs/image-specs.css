@@ -1,0 +1,56 @@
+.section-image-specs{
+    height: 768px;
+    background-color: #000A13;
+    display: flex;
+    flex-direction: column;
+}
+.container-image-specs{
+    height: 70%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-evenly;
+}
+.container-text-specs{
+    height: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.image-specs1{
+    background: url('../../../arquivos/Grupo_2225.png');
+    width: 389px;
+    height: 389px;
+}
+.image-specs2{
+    background: url('../../../arquivos/Grupo_2223.png');
+    width: 389px;
+    height: 389px;
+}
+.image-specs3{
+    background: url('../../../arquivos/Grupo_2224.png');
+    width: 389px;
+    height: 389px;
+}
+.div-specs{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.title-image-specs{
+    width: 172px;
+    height: 24px;
+    font-family: 'Gotham';
+    font-weight: normal;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+.subtitle-image-specs{
+    width: 282px;
+    height: 77px;
+    font-family: 'Gotham';
+    font-weight: normal;
+    font-size: 14px;
+    color: #FFFFFF;
+}
