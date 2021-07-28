@@ -1,0 +1,209 @@
+/*--Sku-Selector-Section--*/
+.Section-sku-selector{
+    display: flex;
+    background-color: #000A13;
+    padding-bottom: 110px;
+}
+/*-Sku-Selector-info-*/
+.Sku-selector-info{
+    width: 50%;
+}
+.sku-title{
+    padding-left: 80px;
+    padding-top: 110px;
+    color: #FFFFFF;
+}
+.sku-title-one{
+    width: 469px;
+    height: 36px;
+    text-align: left;
+    font-family: 'Gotham';
+    font-weight: normal;
+    font-size: 36px;
+}
+.sku-text{
+    width: 298px;
+    height: 24px;
+    padding-top: 30px;
+    font-family: 'Gotham';
+    font-weight: normal;
+    font-size: 24px;
+    opacity: 0.5;
+}
+/*-Device-selector-*/
+.container-device-selector{
+    display: flex;
+    padding-left: 80px;
+    padding-top: 32px;
+}
+.container-device{
+    margin-left: 10px;
+}
+.title-device{
+    align-self: center;
+}
+.title-device span{
+    width: 106px;
+    height: 14px;
+    font-family: 'Gotham';
+    font-weight: normal;
+    font-size: 17px;
+    color: #FFFFFF;
+}
+.button-device{
+    width: 125px;
+    height: 48px;
+    background: #0F161F 0% 0% no-repeat padding-box;
+    border-radius: 2px;
+    opacity: 0.25;
+    margin: 0 8px;
+    border-style: none;
+}
+.button-device span{
+    font-family: 'Gotham';
+    font-weight: normal;
+    font-size: 14px;
+    color: #FFFFFF;
+    opacity: 0.5;
+}
+.container-color-selector{
+    display: flex;
+    padding-left: 80px;
+    padding-top: 32px;
+}
+.title-color-selector{
+    align-self: center;
+}
+.title-color-selector span{
+    width: 95px;
+    height: 14px;
+    font-family: 'Gotham';
+    font-weight: normal;
+    font-size: 17px;
+    color: #FFFFFF;
+}
+.containers-color-selector{
+    margin-left: 10px;
+}
+.button-color-selector{
+    border-radius: 100%;
+    width: 32px;
+    height: 32px;
+    border-style: none;
+    margin:0 16px;
+}
+.btn-1{
+    background-color: #255781;
+}
+.btn-2{
+    background-color: #CEE6F8;
+}
+.btn-3{
+    background-color: #264A67;
+}
+/*-Storage-Selector-*/
+.container-storage-selector{
+    display: flex;
+    padding-left: 80px;
+    padding-top: 32px;
+}
+.title-storage{
+    align-self: center;
+}
+.title-storage span{
+    width: 95px;
+    height: 14px;
+    font-family: 'Gotham';
+    font-weight: normal;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+.containers-storage{
+    margin-left: 10px;
+}
+.button-storage{
+    width: 157px;
+    height: 48px;
+    background: #0F161F 0% 0% no-repeat padding-box;
+    border-radius: 2px;
+    opacity: 0.25;
+    margin: 0 8px;
+    border-style: none;
+}
+.button-storage span,
+.button-storage-carrier span{
+    width: 95px;
+    height: 14px;
+    font-family: 'Gotham';
+    font-weight: normal;
+    font-size: 17px;
+    color: #FFFFFF;
+}
+.span-carrier{
+    font-family: 'Gotham';
+    font-weight: normal;
+    font-size: 16px;
+    color: #FFFFFF; 
+}
+.button-storage-carrier{
+    width: 133px;
+    height: 48px;
+    background: #0F161F 0% 0% no-repeat padding-box;
+    border-radius: 2px;
+    opacity: 0.25;
+    margin: 0 8px;
+    border-style: none;
+}
+/*-Price-*/
+.container-price{
+    padding-left: 80px;
+    padding-top: 38px;
+}
+.Price{
+    width: 116px;
+    height: 32px;
+    text-align: left;
+    font-family: 'Gotham';
+    font-weight: normal;
+    font-size: 32px;
+    color: #FFFFFF;
+    opacity: 0.25;
+}
+/*-button-sku-*/
+.container-button-sku{
+    padding-left: 80px;
+    padding-top: 33px;
+}
+.button-sku{
+    width: 312px;
+    height: 48px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 4px;
+    opacity: 0.25;
+}
+/*-sku-selector-image-*/
+.container-sku-image{
+    width: 50%;
+    padding-top: 55px;
+}
+.sku-image{
+    width: 520px;
+    height: 520px;
+    background: transparent url('/src/arquivos/Enmascarar_grupo_98.png') 0% 0% no-repeat padding-box;
+}
+.flecha-izq{
+    position: absolute;
+    top: 379px;
+    left: 635px;
+    background: transparent url('/src/arquivos/Sustracción_5.svg') 0% 0% no-repeat padding-box;
+    width: 40px;
+    height: 40px;
+}
+.flecha-der{
+    position: absolute;
+    top: 379px;
+    left: 1195px;
+    width: 40px;
+    height: 40px;
+    background: transparent url('/src/arquivos/Sustracción_6.svg') 0% 0% no-repeat padding-box;
+}

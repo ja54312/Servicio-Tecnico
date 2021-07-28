@@ -1,0 +1,33 @@
+/*--Edge-Periscope--*/
+.container-periscope{
+    display: flex;
+    height: 768px;
+    background-color:#000A13;
+}
+.periscope-image{
+    width: 50%;
+    background: url('/src/arquivos/Enmascarar_grupo_2188.png');
+}
+.periscope-text-container{
+    width: 50%;
+}
+.title-periscope{
+    padding-bottom: 38px;
+    padding-top: 324px;
+}
+.title-periscope span{
+    width: 236px;
+    height: 36px;
+    font-family: 'Gotham';
+    font-weight: normal;
+    font-size: 36px;
+    color: #FFFFFF;
+}
+.text-periscope p{
+    width: 527px;
+    height: 53px;
+    font-family: 'Gotham';
+    font-weight: normal;
+    font-size: 24px;
+    color: #FFFFFF;
+}

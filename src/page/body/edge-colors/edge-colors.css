@@ -1,0 +1,36 @@
+/*--Edge-Colors--*/
+.container-edge-colors{
+    height: 674px;
+    background: url('/src/arquivos/Grupo_2246.svg') 0% 0% no-repeat padding-box;
+}
+.container-text-edge-colors{
+    width: 30%;
+}
+.container-logo-edge-colors{
+    position: absolute;
+    top: 1045px;
+    left: 80px;
+    width: 124px;
+    height: 32px;
+    background: transparent url('/src/arquivos/Grupo_2196.svg') 0% 0% no-repeat padding-box;
+}
+.container-text-edge-colors-text{
+    position: absolute;
+    top: 1101px;
+    left: 80px;
+}
+.container-text-edge-colors-text p{
+    width: 458px;
+    height: 67px;
+    font-family: 'Gotham';
+    font-weight: normal;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+.container-image-edge-colors{
+    width: 100%;
+}
+.image-edge-colors{
+    background: url('/src/arquivos/Enmascarar_grupo_104.png');
+    height: 674px;
+}

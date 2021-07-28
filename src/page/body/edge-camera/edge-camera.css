@@ -1,0 +1,55 @@
+/*--Edge-Camera--*/
+.container-edge-camera{
+    height: 768px;
+    background: #000A13;
+}
+.container-image-edge-camera{
+    width: 50%;
+    background-image: url('/src//arquivos/Grupo_2186.png');
+}
+.image-edge-camera{
+   position: absolute;
+   top: 587px;
+   left: -521px;
+}
+.container-text-edge-camera{
+    position: absolute;
+    top: 1568px;
+    left: 727px;
+    width: 441px;
+    height: 258px;
+}
+.Logo-edge-camera{
+    background: transparent url('/src/arquivos/Grupo_2196.svg') 0% 0% no-repeat padding-box;
+    width: 130px;
+    height: 33px;
+}
+.text-edge-camera{
+    padding-top: 27.93px;
+}
+.text-edge-camera span{
+    width: 364px;
+    height: 20px;
+    font-family: 'Gotham';
+    font-weight: normal;
+    font-size: 21px;
+    color: #FFFFFF;
+}
+.container-specs-edge-camera{
+    display: flex;
+    padding-top: 23.88px;
+}
+.specs-edge-camera-1{
+    width: 50%;
+}
+.specs-edge-camera-2{
+    width: 50%;
+}
+.container-specs-edge-camera li{
+    padding-bottom: 19px;
+    color:#FFFFFF;
+    font-size: 16px;
+}
+.container-specs-edge-camera span{
+    font-size: 12px;
+}

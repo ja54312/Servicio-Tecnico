@@ -1,0 +1,48 @@
+/*--Edge-Specs--*/
+.container-edge-specs{
+    height: 365px;
+    background-color: #000A13;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.title-specs{
+    width: 882px;
+    height: 55px;
+    font-family: 'Gotham';
+    font-weight: normal;
+    font-size: 46px;
+    color: #FFFFFF;
+}
+.subtitle-specs{
+    width: 882px;
+    height: 14px;
+    font-family: 'Gotham';
+    font-weight: normal;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+.div-porcentaje{
+    width: 814px;
+    height: 45px; 
+    display: flex;
+    justify-content: space-between; 
+}
+.span-porcentaje{
+    color:#64A1E0;
+    font-family: 'Gotham';
+    font-weight: normal;
+    font-size: 46px;
+}
+.div-porcentaje-specs{
+    width: 814px;
+    height: 45px; 
+    display: flex;
+    justify-content: space-between; 
+}
+.span-porcentaje-specs{
+    color:#FFFFFF;
+    font-family: 'Gotham';
+    font-weight: normal;
+    font-size: 14px;
+}

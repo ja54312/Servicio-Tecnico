@@ -1,0 +1,13 @@
+/*--Slider-Readyfor--*/
+.slider-readyfor{
+    width: 1366px;
+    height: 907px;
+    background-color: #000A13;
+    display: flex;
+    justify-content: space-around;
+}
+.slide-readyfor button{
+        border-radius: 0%;
+        width: 40px;
+        height: 0px;
+}
