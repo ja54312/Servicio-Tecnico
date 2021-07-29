@@ -42,3 +42,58 @@
     background: url('../../../arquivos/Enmascarar_grupo_2229.png') no-repeat;
     margin-left: 32%;
 }
+@media screen and (max-width:2560px) {
+    .cel-speed{
+        margin-left: 42%;
+    }
+}
+@media screen and (max-width:1440px) {
+    .cel-speed{
+        margin-left: 35%;
+    }
+}
+@media screen and (max-width:768px) {
+    .cel-speed{
+        margin-left: 25%;
+    }
+    .container-text-speed{
+        padding-left: 125px;
+    }
+    .title-speed{
+        font-size: 40px;
+    }
+}
+@media screen and (max-width:425px){
+    .cel-speed{
+        background: url('../../../arquivos/Grupo_2386.png') no-repeat;
+        width: auto;
+        margin-left: 0px;
+        margin-top: -20px;
+    }
+    .ondas-speed{
+        display: none;
+    }
+    .edge-speed-section{
+        height: auto;
+    }
+    .title-speed{
+        font-size: 25px;
+        padding-left: 245px;
+        padding-top: 45px;
+    }
+} 
+@media screen and (max-width:375px){
+    .title-speed{
+        width: auto;
+        font-size: 20px;
+        padding-left: 0px;
+    }
+    .container-text-speed{
+        padding-left: 0px;
+    }
+}
+@media screen and (max-width:320px){
+    .cel-speed{
+        margin-left: -50px;
+    }
+}

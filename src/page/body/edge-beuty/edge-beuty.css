@@ -35,5 +35,56 @@
 .beuty-image{
     width: 1150px;
     height: 439px;
-    background: url('../../../arquivos/Grupo_2212.png');
+    background: url('../../../arquivos/Grupo_2212.png')no-repeat;
+}
+@media screen and (max-width:2560px){
+    .container-images-beuty{
+        padding-left: 28%;
+    }
+}
+@media screen and (max-width:1440px){
+    .container-images-beuty{
+        padding-left: 10%;
+    }
+}
+@media screen and (max-width:1024px){
+    .container-images-beuty{
+        padding-left: 5%;
+    }
+    .beuty-image{
+        width: auto;
+    }
+}
+@media screen and (max-width:768px){
+    .beuty-image{
+        background: url('../../../arquivos/Grupo_2344.png')no-repeat;
+        width: auto;
+        margin-left: 125px;
+    }
+} 
+@media screen and (max-width:425px){
+    .title-beuty{
+        width: auto;
+    }
+    .subtitle-beuty{
+        width: auto;
+        padding: 0 20px;
+    }
+    .beuty-image{
+        margin-left: 0px;
+    }
+}
+@media screen and (max-width:375px){
+    .container-images-beuty{
+        padding-left: 0%;
+    }
+    .title-beuty{
+        font-size: 30px;
+        padding-left: 60px;
+        height: auto;
+    }
+    .subtitle-beuty{
+        padding-left: 100px;
+        font-size: 10px;
+    }
 }

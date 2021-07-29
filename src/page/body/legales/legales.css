@@ -1,7 +1,7 @@
 /*--Legales--*/
 .section-legales{
     background: #000A13;
-    height: 275px;
+    height: auto;
 }
 .container-legales{
     width: 900px;
@@ -12,4 +12,58 @@
     font-weight: normal;
     font-size: 14px;
     color: #FFFFFF;
+}
+@media screen and (max-width:2560px) {
+    .container-legales{
+        width: 1300px;
+        padding-left: 25%;
+    }
+    .container-legales p{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width:1440px){
+    .container-legales{
+        width: 900px;
+        padding-left: 19%;
+    }
+    .container-legales p{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width:1024px){
+    .container-legales{
+        width: 820px;
+        padding-left: 10%;
+    }
+    .container-legales p{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 768px){
+    .container-legales {
+        width: 650px;
+        padding-left: 5%;
+    }
+}
+@media screen and (max-width: 425px){
+    .container-legales {
+        width: 400px;
+        padding-left: 4%;
+    }
+}
+@media screen and (max-width: 375px){
+    .container-legales {
+        width: 285px;
+        padding-left: 1%;
+    }
+    .container-legales p{
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 320px){
+    .container-legales {
+        width: 300px;
+        padding-left: 4%;
+    }
 }
