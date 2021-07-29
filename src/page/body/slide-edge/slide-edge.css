@@ -33,6 +33,7 @@
    
 }
 .flecha-izq-slide{
+    display: none;
     position: absolute;
     top: 241px;
     left: -76px;
@@ -41,6 +42,7 @@
     background: transparent url('/src/arquivos/Sustracción_5.svg') ;
 }
 .flecha-der-slide{
+    display: none;
     position: absolute;
     top: 256px;
     left: 813px;

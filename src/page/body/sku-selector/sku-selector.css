@@ -209,6 +209,7 @@
     background: transparent url('/src/arquivos/Enmascarar_grupo_98.png') 0% 0% no-repeat padding-box;
 }
 .flecha-izq{
+    display: none;
     position: absolute;
     top: 379px;
     left: 635px;
@@ -217,6 +218,7 @@
     height: 40px;
 }
 .flecha-der{
+    display: none;
     position: absolute;
     top: 379px;
     left: 1195px;

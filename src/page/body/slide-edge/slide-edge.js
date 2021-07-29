@@ -13,23 +13,14 @@ import sl_6 from "../../../arquivos/Grupo_2183.png";
 export default function SlideEdge(){
 
     const images2 = [
-        { url: /arquivos/Grupo_2180.png},
-        { url: /arquivos/Grupo_2178.png},
-        { url: /arquivos/Grupo_2179.png},
-        { url: /arquivos/Grupo_2181.png},
-        { url: /arquivos/Grupo_2182.png},
-        { url: /arquivos/Grupo_2183.png}
-       
+        { url: `arquivos${sl_1}`},
+        { url: `arquivos${sl_2}`},
+        { url: `arquivos${sl_3}`},
+        { url: `arquivos${sl_4}`},
+        { url: `arquivos${sl_5}`}
       ];
 
-    //   const images2 = [
-    //     { url: sl_1},
-    //     { url: sl_2},
-    //     { url: sl_3},
-    //     { url: sl_4},
-    //     { url: sl_5},
-    //     { url: sl_6}
-    //   ];
+      
 
 
 
