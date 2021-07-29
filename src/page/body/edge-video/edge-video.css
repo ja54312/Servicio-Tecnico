@@ -2,10 +2,10 @@
 .container-edge-video{
     height: 800px;
     background-color:#000A13;
+    display: flex;
 }
 .container-edge-video-title{
-    position: absolute;
-    left: 34%;
+    height: 20%;
 }
 .edge-video-title{
     width: 462px;
@@ -22,11 +22,13 @@
     font-weight: normal;
     font-size: 16px;
     color: #FFFFFF;
+    padding-left: 20%;
 }
-.edge-video{
-    height: 879px;
+.container-edge-video{
+    height: 80%;
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
 }
 .video-1{
     height: 879px;

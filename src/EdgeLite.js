@@ -15,6 +15,7 @@ import EdgeBeuty from './page/body/edge-beuty/edge-beuty';
 import EdgeBatery from './page/body/edge-batery/edge-batery';
 import ImageSpecs from './page/body/image-specs/image-specs';
 import Specifications from './page/body/specifications/specifications';
+import Legales from './page/body/legales/legales';
 
 // html body .c-general .c-content padding: 58px 0px 0px;
 
@@ -29,16 +30,17 @@ export default function EdgeLite(){
             <SkuSelector/>
             <EdgeColors/>
             <EdgeCamera/>
-            <Periscope/>
+            {/* <Periscope/> */}
             <SlideEdge/>
             <EdgeVideo/>
-            <EdgeSpecs/>
+            {/* <EdgeSpecs/> */}
             <SlideReadyFor/>
             <EdgeSpeed/>
             <EdgeBeuty/>
-            <EdgeBatery/>
-            <ImageSpecs/>
+            {/* <EdgeBatery/> */}
+            {/* <ImageSpecs/> */}
             <Specifications/>
+            <Legales/>
         </body>
         </>
     );

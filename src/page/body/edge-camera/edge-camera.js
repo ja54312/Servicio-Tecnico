@@ -1,6 +1,6 @@
 import React from 'react';
 import './edge-camera.css';
-import img from '../../../arquivos/Grupo_105.png';
+
 
 
 
@@ -9,11 +9,11 @@ export default function EdgeCamera(){
         <>
             <section className="container-edge-camera">
                 <div className="container-image-edge-camera">
-                        <img src={img} className="image-edge-camera"></img>
+                        <div className="div-image-edge-camera"></div>
                 </div>
                 <div className="container-text-edge-camera">
                     <div className="Logo-edge-camera"></div>
-                    <div className="text-edge-camera">
+                    {/* <div className="text-edge-camera">
                         <span>Lorem ipsum dolor sit amet.</span>
                     </div>
                     <div className="container-specs-edge-camera">
@@ -30,7 +30,7 @@ export default function EdgeCamera(){
                                 <li>HDR10 video</li>
                             </ul>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </section>
         </>

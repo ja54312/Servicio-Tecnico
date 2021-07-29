@@ -1,8 +1,10 @@
+/*---Beuty---*/
 .section-beuty{
     height: 757px;
     background-color: #000A13;
     display: flex;
     flex-direction: column;
+    padding-top: 40px;
 }
 .container-text-beuty{
     height: 30%;
@@ -20,13 +22,12 @@
     color: #FFFFFF;
 }
 .subtitle-beuty{
-    width: 880px;
+    width: 632px;
     height: 39px;
     font-family: 'Gotham';
     font-weight: normal;
     font-size: 14px;
     color: #FFFFFF;
-    padding-left: 329px;
 }
 .container-images-beuty{
     height: 70%;

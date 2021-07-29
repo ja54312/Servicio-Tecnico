@@ -181,6 +181,21 @@
     border-radius: 4px;
     opacity: 0.25;
 }
+/*-proximamente-*/
+.div-proximamente{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 300px;
+}
+.div-proximamente span{
+    width: 116px;
+    height: 32px;
+    font-family: 'Gotham';
+    font-weight: normal;
+    font-size: 32px;
+    color: #FFFFFF;   
+}
 /*-sku-selector-image-*/
 .container-sku-image{
     width: 50%;

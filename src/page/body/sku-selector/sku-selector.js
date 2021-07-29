@@ -10,8 +10,8 @@ export default function SkuSelector(){
             <section className="Section-sku-selector">
                 <div className="Sku-selector-info">
                     <div className="sku-title">
-                        <span className="sku-title-one">Your next edge phone is here</span><br></br><br></br>
-                        <span className="sku-text">Lorem ipsum dolor sit amet.</span>
+                        <span className="sku-title-one">Find your Edge.</span><br></br><br></br>
+                        {/* <span className="sku-text">Lorem ipsum dolor sit amet.</span> */}
                     </div>
                     <div className="container-device-selector">
                         <div className="title-device">
@@ -23,7 +23,7 @@ export default function SkuSelector(){
                             <button className="button-device"><span>edge 20</span></button>
                         </div>
                     </div>
-                    <div className="container-color-selector">
+                    {/* <div className="container-color-selector">
                         <div className="title-color-selector">
                             <span>Choose a color</span>
                         </div>
@@ -46,8 +46,11 @@ export default function SkuSelector(){
                     <div className="container-price">
                     <span className="Price">$699.99</span>
                     </div>
-                    <div className="container-button-sku">
+                    <div className="container-button-sku"> 
                     <button className="button-sku">Buy the Motorola Edge pro</button>
+                    </div>*/}
+                    <div className="div-proximamente">
+                        <span>Proximamente</span>
                     </div>
                 </div>
                 <div className="container-sku-image">

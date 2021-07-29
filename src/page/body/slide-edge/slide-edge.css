@@ -1,11 +1,15 @@
 /*--Edge-Slide--*/
 .slide-edge{
     height: 768px;
-    background-color:#000A13;
+    background-color: #000A13;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    justify-content: center;
+    align-items: center;
 }
 .slide-text{
-    position: absolute;
-    left:34%;
+   height: 20%;
 }
 .slide-title{
     width: 494px;
@@ -24,12 +28,9 @@
     color: #FFFFFF;
     padding-top: 28px;
 }
-.slider{
-    width: 785px;
-    height: 461px;
-    position: absolute;
-    left: 25%;
-    top:3138px;
+.container-slide{
+    height: 80%;
+   
 }
 .flecha-izq-slide{
     position: absolute;

@@ -24,7 +24,7 @@ li{
     position: inherit;
     top: 36px;
     left: 816px;
-    width: 66px;
+    width: 100px;
     height: 16px;
     text-align: center;
     font: normal normal normal 16px/19px Gotham;
@@ -34,13 +34,14 @@ li{
     position: inherit;
     top: 36px;
     left: 953px;
-    width: 80px;
+    width: 100px;
     height: 16px;
     text-align: center;
     font: normal normal normal 16px/19px Gotham;
     letter-spacing: 0px; 
 }
 .button-nav{
+    display: none;
     position: inherit;
     top: 18px;
     left: 1100px;

@@ -10,8 +10,8 @@ export default function EdgeBeuty(){
         <>
          <section className="section-beuty">
             <div className="container-text-beuty">
-                <span className="title-beuty">Beautifully sleek. Unmistakably modern.</span>
-                <span className="subtitle-beuty">With bold colors, beautiful designs, and matte finishes that minimize fingerprints and smudges,<br></br> the edge 20 family stands out in every way.</span>
+                <span className="title-beuty">Diseño sofisticado.</span>
+                <span className="subtitle-beuty">Con colores llamativos, hermosos diseños y acabados mate que minimizan las huellas dactilares y las manchas,la familia edge 20 se destaca en todos los sentidos.</span>
             </div>
             <div className="container-images-beuty">
                 <div className="beuty-image"></div>

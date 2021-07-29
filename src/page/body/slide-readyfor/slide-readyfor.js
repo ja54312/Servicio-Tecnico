@@ -26,7 +26,9 @@ export default function SlideReadyFor(){
     return(
         <>
             <section className="slider-readyfor">
+                <div className="slider-readyfor-title">Experimenta Ready For en la TV</div>
                 <SimpleImageSlider  className="slide-r4" width={785} height={461} images={images} showBullets={false} showNavs={true} navStyle={2} navMargin={100}/>
+                <div className="slider-readyfor-subtitle">Conecta el smartphone a una pantalla externa y amplifica tu experiencia para disfrutar de juegos, videollamadas y aplicaciones. </div>
             </section>
         </>
     )

@@ -1,13 +1,26 @@
 /*--Slider-Readyfor--*/
 .slider-readyfor{
-    width: 1366px;
-    height: 590px;
+    height: 660px;
     background-color: #000A13;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
 }
-.slide-readyfor button{
-        border-radius: 0%;
-        width: 40px;
-        height: 0px;
+.slider-readyfor-title{
+    width: 649px;
+    height: 48px;
+    font-family: 'Gotham';
+    font-weight: normal;
+    font-size: 48px;
+    color: #FFFFFF;
+    padding-bottom: 45px;
+}
+.slider-readyfor-subtitle{
+    width: 711px;
+    height: 59px;
+    font-family: 'Gotham';
+    font-weight: normal;
+    font-size: 14px;
+    color: #FFFFFF;
 }

@@ -6,10 +6,15 @@
 .container-image-edge-camera{
     width: 50%;
 }
+.div-image-edge-camera{
+    background: url('../../../arquivos/Grupo_105.png');
+    height: 760px;
+    width: 1215px;
+}
 .container-text-edge-camera{
     position: absolute;
-    top: 1568px;
-    left: 727px;
+    top: 1625px;
+    left: 865px;
     width: 441px;
     height: 258px;
 }

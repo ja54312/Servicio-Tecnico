@@ -3,3 +3,7 @@
     margin: 0;
     padding: 0;
 }
+html body .c-general .c-content {
+    padding: 58px 0px 0px !important;
+}
+/**----------------- Poner en url ('/arquivos/algo.png')  Para que funcione ------------**/

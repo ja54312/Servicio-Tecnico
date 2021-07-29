@@ -10,7 +10,7 @@ export default function Specifications(){
         <>
         <section className="section-specifications">
             <div className="container-title">
-                <span className="title-specifications">Specifications</span>
+                <span className="title-specifications">Especificaciones</span>
             </div>
             <div className="container-table">
                 <div className="div-images-table">
@@ -24,33 +24,33 @@ export default function Specifications(){
                         <span>Performance</span>
                     </div>
                     <div className="performance-specs1">
-                        <span className="specs-SO">Operating System Android™ 10 with easy access to the Google apps you use most</span>
+                        <span className="specs-SO">Sistema Operativo Android 11</span>
                         <span className="specs-procesador">Qualcomm® Snapdragon™ 870</span>
                     </div>
                     <div className="performance-specs2">
-                        <span className="specs-SO">Operating System Android™ 10 with easy access to the Google apps you use most</span>
+                        <span className="specs-SO">Sistema Operativo Android 11</span>
                         <span className="specs-procesador">Mediatek® MTK™ 720</span>
                     </div>
                     <div className="performance-specs3">
-                        <span className="specs-SO">Operating System Android™ 10 with easy access to the Google apps you use most</span>
-                        <span className="specs-procesador">Mediatek® MTK™ 720</span>
+                        <span className="specs-SO">Sistema Operativo Android 11</span>
+                        <span className="specs-procesador">Qualcomm® Snapdragon™ 778</span>
                     </div>
                 </div>
                 <div className="div-system-table">
                     <div className="title-performance">
-                        <span>System</span>
+                        <span>Cámara</span>
                     </div>
                     <div className="performance-specs1">
-                        <span className="specs-SO">Operating System Android™ 10 with easy access to the Google apps you use most</span>
-                        <span className="specs-procesador">Qualcomm® Snapdragon™ 870</span>
+                        <span className="specs-SO">Cámara Trasera <br></br>108MP + 16MP (wide/macro) + 8MP (optical zoom)</span>
+                        <span className="specs-procesador">Cámara Frontal <br></br>32 MP</span>
                     </div>
                     <div className="performance-specs2">
-                        <span className="specs-SO">Operating System Android™ 10 with easy access to the Google apps you use most</span>
-                        <span className="specs-procesador">Mediatek® MTK™ 720</span>
+                        <span className="specs-SO">Cámara Trasera <br></br>108MP + 16MP (wide/macro) + 8MP (optical zoom)</span>
+                        <span className="specs-procesador">Cámara Frontal <br></br>32 MP</span>
                     </div>
                     <div className="performance-specs3">
-                        <span className="specs-SO">Operating System Android™ 10 with easy access to the Google apps you use most</span>
-                        <span className="specs-procesador">Mediatek® MTK™ 720</span>
+                        <span className="specs-SO">Cámara Trasera <br></br>108MP + 8MP (macro/wide) + 2MP (depth)</span>
+                        <span className="specs-procesador">Cámara Frontal <br></br>32 MP</span>
                     </div>  
                 </div>
                 <div className="div-network-table">

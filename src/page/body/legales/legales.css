@@ -1,0 +1,15 @@
+/*--Legales--*/
+.section-legales{
+    background: #000A13;
+    height: 275px;
+}
+.container-legales{
+    width: 900px;
+    padding-left: 18%;
+}
+.container-legales p{
+    font-family: 'Gotham';
+    font-weight: normal;
+    font-size: 14px;
+    color: #FFFFFF;
+}
