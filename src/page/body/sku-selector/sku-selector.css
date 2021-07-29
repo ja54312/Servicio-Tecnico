@@ -7,6 +7,9 @@
 /*-Sku-Selector-info-*/
 .Sku-selector-info{
     width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .sku-title{
     padding-left: 80px;
@@ -202,7 +205,6 @@
     padding-top: 55px;
 }
 .sku-image{
-    width: 520px;
     height: 520px;
     background: transparent url('/src/arquivos/Enmascarar_grupo_98.png') 0% 0% no-repeat padding-box;
 }
@@ -221,4 +223,71 @@
     width: 40px;
     height: 40px;
     background: transparent url('/src/arquivos/Sustracción_6.svg') 0% 0% no-repeat padding-box;
+}
+/*---Responsive---*/
+@media screen and (max-width:768px) {
+    .Section-sku-selector{
+        padding-bottom: 0px;
+    }
+    .sku-image{
+        background: transparent url('/src/arquivos/Enmascarar_grupo_2240.png') 0% 0% no-repeat padding-box;
+    }
+    .sku-title-one{
+        font-size: 32px;
+    }
+    .container-device-selector{
+        padding-top: 0px;
+        padding-left: 50px;
+    }
+    .title-device span{
+        font-size: 15px;
+    }
+    .button-device{
+        width: 110px;
+        margin: 0px 1px;
+    }
+    .div-proximamente{
+        height: 0px;
+    }
+    .div-proximamente span{
+        font-size: 25px;
+        padding-top: 50px;
+    }
+}
+ @media screen and (max-width:425px){
+    .Section-sku-selector{
+        flex-direction: column-reverse;
+    }
+    .container-sku-image{
+        padding-left: 55px;
+    }
+    .sku-image{
+        width: 300px;
+        height: 300px;
+    }
+    .Sku-selector-info{
+        padding-left: 55px;
+    }
+    .sku-title{
+        padding-left: 0px;
+        padding-top: 15px;
+    }
+    .container-device-selector{
+        padding-left: 0px;
+        padding-top: 0px;
+    }
+    .title-device span{
+        font-size: 13px;
+    }
+    .button-device{
+        margin: 5px 30px;
+    }
+    .div-proximamente span{
+        height: 0px;
+    }
+} 
+@media screen and (max-width:320px){
+    .container-sku-image{
+        padding-left: 0px;
+    }
 }

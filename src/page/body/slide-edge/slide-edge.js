@@ -31,9 +31,15 @@ export default function SlideEdge(){
                         {/* <span className="slide-subtitle">Lorem ipsum dolor sit amet consectetur sed do eismod, du lorem ipsum.</span> */}
                     </div>
                     <div className="slider">
-                    <span className="flecha-izq-slide"></span>
-                    <SimpleImageSlider  className="slide-r4" width={785} height={461} images={images2} showBullets={false} showNavs={true} navStyle={2} navMargin={100}/>
-                    <span className="flecha-der-slide"></span>
+                    {/* <span className="flecha-izq-slide"></span> */}
+                    <SimpleImageSlider   width={785} height={461} images={images2} showBullets={false} showNavs={true} navStyle={2} navMargin={100}/>
+                    {/* <span className="flecha-der-slide"></span> */}
+                    </div>
+                    <div className="slider-t">
+                        <SimpleImageSlider   width={600} height={461} images={images2} showBullets={false} showNavs={true} navStyle={2} navMargin={100}/>
+                    </div>
+                    <div className="slider-m">
+                        <SimpleImageSlider   width={300} height={461} images={images2} showBullets={false} showNavs={true} navStyle={2} navMargin={100}/>
                     </div>
             </section>
         </>

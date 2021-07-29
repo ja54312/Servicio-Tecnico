@@ -48,3 +48,45 @@
     height: 40px;
     background: transparent url('/src/arquivos/Sustracción_6.svg') ;
 }
+.slider-t{
+    display: none;
+}
+.slider-m{
+    display: none;
+}
+@media screen and (max-width:1024px){
+    .slider{
+        padding-right: 125px;
+    }
+    .slide-text{
+        padding-right: 145px;
+    }
+}
+@media screen and (max-width:768px){
+    .slider{
+        display: none;
+    }
+    .slider-t{
+        display: block;
+    }
+    .slide-title{
+        font-size: 32px;
+        padding-left: 112px;
+    }
+    
+}
+@media screen and (max-width:425px){
+    .slider-t{
+        display: none;
+    }
+    .slider-m{
+        display: block;
+    } 
+    .slide-title{
+        font-size: 25px;
+        padding-left: 0px;
+    }
+    .slide-text{
+        padding-right: 0px;
+    }
+}

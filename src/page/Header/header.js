@@ -11,6 +11,7 @@ export default function Header(){
             <header>
                 <div className="Logo-header-container"></div>
                 <nav>
+                    <li className="v">V</li>
                     <li className="li-1">Vista General</li>
                     <li className="li-2">Ficha Técnica</li>
                 <button className="button-nav">Buy now</button>

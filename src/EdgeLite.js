@@ -34,13 +34,7 @@ export default function EdgeLite(){
             <SlideEdge/>
             <EdgeVideo/>
             {/* <EdgeSpecs/> */}
-            <SlideReadyFor/>
-            <EdgeSpeed/>
-            <EdgeBeuty/>
-            {/* <EdgeBatery/> */}
-            {/* <ImageSpecs/> */}
-            <Specifications/>
-            <Legales/>
+            
         </body>
         </>
     );

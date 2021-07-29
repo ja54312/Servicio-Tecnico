@@ -6,6 +6,7 @@
     justify-content: space-between;
     flex-direction: column;
     align-items: center;
+    padding-top: 20px;
 }
 .slider-readyfor-title{
     width: 649px;

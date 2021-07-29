@@ -13,8 +13,8 @@
 }
 .container-text-edge-camera{
     position: absolute;
-    top: 1625px;
-    left: 865px;
+    top: 1750px;
+    left: 930px;
     width: 441px;
     height: 258px;
 }
@@ -52,3 +52,68 @@
 .container-specs-edge-camera span{
     font-size: 12px;
 }
+@media screen and (max-width:2560px){
+    .container-image-edge-camera{
+        padding-left: 25%;
+    }
+    .container-text-edge-camera{
+        top: 1655px;
+        left: 1461px;
+    }
+}
+@media screen and (max-width:1440px){
+    .container-image-edge-camera{
+        padding-left: 0;
+    }
+    .container-text-edge-camera{
+        top: 1750px;
+    left: 930px;
+    }
+}
+@media screen and (max-width:1024px){
+   .div-image-edge-camera{
+    margin-left: -183px;
+   }
+   .container-edge-camera{
+        top: 1647px;
+        left: 670px;
+   }
+   .container-text-edge-camera {
+        top: 1672px;
+        left: 678px;
+   }
+}
+@media screen and (max-width:768px){
+    .div-image-edge-camera{
+     margin-left: -439px;
+    }
+    .container-text-edge-camera{
+        left:433px;
+        top:1509px;
+    }
+ }
+ @media screen and (max-width:425px){
+    .div-image-edge-camera{
+        background: url('../../../arquivos/Enmascarar_grupo_2238.png') no-repeat;
+        margin-left: 0px;
+        width: 425px;
+    }
+    .container-text-edge-camera{
+        left:140px;
+        width: 425px;
+    }
+ }
+ @media screen and (max-width:375px){
+    .div-image-edge-camera{
+        width: 375px;
+    }
+    .container-text-edge-camera{
+        
+        width: auto;
+    }
+ }
+ @media screen and (max-width:320px){
+    .div-image-edge-camera{
+        width: 320px;
+    }
+ }

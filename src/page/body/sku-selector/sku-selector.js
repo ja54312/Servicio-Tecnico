@@ -54,9 +54,9 @@ export default function SkuSelector(){
                     </div>
                 </div>
                 <div className="container-sku-image">
-                    <span className="flecha-izq"></span>
+                    {/* <span className="flecha-izq"></span> */}
                     <div className="sku-image"></div>
-                    <span className="flecha-der"></span>
+                    {/* <span className="flecha-der"></span> */}
                 </div>
             </section>
         </>
