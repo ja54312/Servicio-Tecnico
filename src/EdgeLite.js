@@ -16,7 +16,7 @@ import EdgeBatery from './page/body/edge-batery/edge-batery';
 import ImageSpecs from './page/body/image-specs/image-specs';
 import Specifications from './page/body/specifications/specifications';
 
-
+// html body .c-general .c-content padding: 58px 0px 0px;
 
 export default function EdgeLite(){
 
@@ -40,8 +40,6 @@ export default function EdgeLite(){
             <ImageSpecs/>
             <Specifications/>
         </body>
-        <footer></footer>
-   
         </>
     );
 }
