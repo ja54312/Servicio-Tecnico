@@ -20,7 +20,7 @@
     width: 469px;
     height: 36px;
     text-align: left;
-    font-family: 'Gotham';
+    font-family: 'SANS-SERIF';
     font-weight: normal;
     font-size: 36px;
 }
@@ -28,7 +28,7 @@
     width: 298px;
     height: 24px;
     padding-top: 30px;
-    font-family: 'Gotham';
+    font-family: 'SANS-SERIF';
     font-weight: normal;
     font-size: 24px;
     opacity: 0.5;
@@ -48,7 +48,7 @@
 .title-device span{
     width: 106px;
     height: 14px;
-    font-family: 'Gotham';
+    font-family: 'SANS-SERIF';
     font-weight: normal;
     font-size: 17px;
     color: #FFFFFF;
@@ -63,7 +63,7 @@
     border-style: none;
 }
 .button-device span{
-    font-family: 'Gotham';
+    font-family: 'SANS-SERIF';
     font-weight: normal;
     font-size: 14px;
     color: #FFFFFF;
@@ -80,7 +80,7 @@
 .title-color-selector span{
     width: 95px;
     height: 14px;
-    font-family: 'Gotham';
+    font-family: 'SANS-SERIF';
     font-weight: normal;
     font-size: 17px;
     color: #FFFFFF;
@@ -116,7 +116,7 @@
 .title-storage span{
     width: 95px;
     height: 14px;
-    font-family: 'Gotham';
+    font-family: 'SANS-SERIF';
     font-weight: normal;
     font-size: 14px;
     color: #FFFFFF;
@@ -137,13 +137,13 @@
 .button-storage-carrier span{
     width: 95px;
     height: 14px;
-    font-family: 'Gotham';
+    font-family: 'SANS-SERIF';
     font-weight: normal;
     font-size: 17px;
     color: #FFFFFF;
 }
 .span-carrier{
-    font-family: 'Gotham';
+    font-family: 'SANS-SERIF';
     font-weight: normal;
     font-size: 16px;
     color: #FFFFFF; 
@@ -166,7 +166,7 @@
     width: 116px;
     height: 32px;
     text-align: left;
-    font-family: 'Gotham';
+    font-family: 'SANS-SERIF';
     font-weight: normal;
     font-size: 32px;
     color: #FFFFFF;
@@ -194,7 +194,7 @@
 .div-proximamente span{
     width: 116px;
     height: 32px;
-    font-family: 'Gotham';
+    font-family: 'SANS-SERIF';
     font-weight: normal;
     font-size: 32px;
     color: #FFFFFF;   

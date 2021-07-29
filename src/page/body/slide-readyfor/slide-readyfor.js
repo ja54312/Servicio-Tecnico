@@ -12,14 +12,21 @@ import r4_5 from "../../../arquivos/r4_5.png";
 
 export default function SlideReadyFor(){
 
-    const images = [
-        { url: r4_1},
-        { url: r4_2},
-        { url: r4_3},
-        { url: r4_4},
-        { url: r4_5}
-      ];
+    // const images = [
+    //     { url: r4_1},
+    //     { url: r4_2},
+    //     { url: r4_3},
+    //     { url: r4_4},
+    //     { url: r4_5}
+    //   ];
 
+      const images = [
+        { url: /arquivos/r4_1.png},
+        { url: /arquivos/r4_2.png},
+        { url: /arquivos/r4_3.png},
+        { url: /arquivos/r4_4.png},
+        { url: /arquivos/r4_5.png}
+      ];
 
 
 
