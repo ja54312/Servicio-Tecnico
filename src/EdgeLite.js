@@ -39,7 +39,7 @@ export default function EdgeLite(){
             <EdgeBeuty/>
             {/* <EdgeBatery/> */}
             {/* <ImageSpecs/> */}
-            
+            <Specifications/>
             <Legales/>
         </body>
         </>

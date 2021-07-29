@@ -114,3 +114,8 @@
     justify-content: space-evenly;
     height: 256px;
 }
+@media screen and (max-width:425px){
+    .section-specifications{
+        display: none;
+    }
+} 
