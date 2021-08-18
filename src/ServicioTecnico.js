@@ -42,27 +42,14 @@ export default function ServicioTecnico(){
             <h2 className="centros-title"><strong>Centros</strong> de Servicio</h2>  
         <div className="container-centros">
             <div className="centro-1">
-                <h3>Santiago</h3>
+                <h3>Ciudad de Guatemala</h3>
                 <br/>
-                <span><strong>Tudcom</strong></span> <br/>
-                <span>Monseñor Sotero Sanz 55, piso 2. Providencia</span> 
-                <p>Horario: Lunes -Viernes 10:30hrs am a 17:00hrs <br/> Atención clientes presenciales</p>
-                <span className="number-contact"><strong> 56-22 471 70 94</strong></span><br/>
-                <span className="number-contact"><strong> contacto@tudcom.cl</strong></span>
+                <span><strong>Solucel Guatemala</strong></span> <br/>
+                <span>20 calle 25-55 Zona 12 Complejo Empresarial El Cortijo III Bodega 929</span> 
+                <p>Lunes a Viernes de 8:00 a 15:00 Sábado 9:00am a 14:00</p>
+                <span className="number-contact"><strong> 502 25005200</strong></span><br/>
+                <span className="number-contact"><strong> recepcion@jopcorp.com</strong></span>
             </div>
-        </div>
-        <div className="section-container">
-            <div className="text-left-container">
-                <div className="text-left-container__photo">
-                    <img src="/arquivos/lmsa-tool-pdp-hero-m2.jpg" className="text-left-container__photo--image"/>
-                </div>
-                <div className="text-left-container__text">
-                    <h2 className="text-left-container__text--title"> Herramienta de Recuperación y Asistente Inteligente (HRAI) </h2>
-                    <p className="text-left-container__text--paragraph"> Nuestra Herramienta de Recuperación y Asistente Inteligente (HRAI) puede ayudar a diagnosticar y resolver problemas con tu teléfono Motorola o tu tablet Lenovo.  </p>
-                    <a  href="https://support.lenovo.com/mx/es/downloads/ds101291" className="text-left-container__button" >Descargar</a>
-                </div>
-            </div>
-
         </div>
     </div>
         </>

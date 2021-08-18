@@ -29686,29 +29686,11 @@ function ServicioTecnico() {
     className: "container-centros"
   }, /*#__PURE__*/_react.default.createElement("div", {
     className: "centro-1"
-  }, /*#__PURE__*/_react.default.createElement("h3", null, "Santiago"), /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("span", null, /*#__PURE__*/_react.default.createElement("strong", null, "Tudcom")), " ", /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("span", null, "Monse\xF1or Sotero Sanz 55, piso 2. Providencia"), /*#__PURE__*/_react.default.createElement("p", null, "Horario: Lunes -Viernes 10:30hrs am a 17:00hrs ", /*#__PURE__*/_react.default.createElement("br", null), " Atenci\xF3n clientes presenciales"), /*#__PURE__*/_react.default.createElement("span", {
+  }, /*#__PURE__*/_react.default.createElement("h3", null, "Ciudad de Guatemala"), /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("span", null, /*#__PURE__*/_react.default.createElement("strong", null, "Solucel Guatemala")), " ", /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("span", null, "20 calle 25-55 Zona 12 Complejo Empresarial El Cortijo III Bodega 929"), /*#__PURE__*/_react.default.createElement("p", null, "Lunes a Viernes de 8:00 a 15:00 S\xE1bado 9:00am a 14:00"), /*#__PURE__*/_react.default.createElement("span", {
     className: "number-contact"
-  }, /*#__PURE__*/_react.default.createElement("strong", null, " 56-22 471 70 94")), /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("span", {
+  }, /*#__PURE__*/_react.default.createElement("strong", null, " 502 25005200")), /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("span", {
     className: "number-contact"
-  }, /*#__PURE__*/_react.default.createElement("strong", null, " contacto@tudcom.cl")))), /*#__PURE__*/_react.default.createElement("div", {
-    className: "section-container"
-  }, /*#__PURE__*/_react.default.createElement("div", {
-    className: "text-left-container"
-  }, /*#__PURE__*/_react.default.createElement("div", {
-    className: "text-left-container__photo"
-  }, /*#__PURE__*/_react.default.createElement("img", {
-    src: "/arquivos/lmsa-tool-pdp-hero-m2.jpg",
-    className: "text-left-container__photo--image"
-  })), /*#__PURE__*/_react.default.createElement("div", {
-    className: "text-left-container__text"
-  }, /*#__PURE__*/_react.default.createElement("h2", {
-    className: "text-left-container__text--title"
-  }, " Herramienta de Recuperaci\xF3n y Asistente Inteligente (HRAI) "), /*#__PURE__*/_react.default.createElement("p", {
-    className: "text-left-container__text--paragraph"
-  }, " Nuestra Herramienta de Recuperaci\xF3n y Asistente Inteligente (HRAI) puede ayudar a diagnosticar y resolver problemas con tu tel\xE9fono Motorola o tu tablet Lenovo.  "), /*#__PURE__*/_react.default.createElement("a", {
-    href: "https://support.lenovo.com/mx/es/downloads/ds101291",
-    className: "text-left-container__button"
-  }, "Descargar"))))));
+  }, /*#__PURE__*/_react.default.createElement("strong", null, " recepcion@jopcorp.com"))))));
 }
 
 var entryPointMalta = document.getElementById("root");
@@ -29742,7 +29724,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "38273" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "42961" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
