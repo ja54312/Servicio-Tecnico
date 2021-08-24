@@ -42,13 +42,13 @@ export default function ServicioTecnico(){
             <h2 className="centros-title"><strong>Centros</strong> de Servicio</h2>  
         <div className="container-centros">
             <div className="centro-1">
-                <h3>Ciudad de Guatemala</h3>
+                <h3>Alajuela</h3>
                 <br/>
-                <span><strong>Solucel Guatemala</strong></span> <br/>
-                <span>20 calle 25-55 Zona 12 Complejo Empresarial El Cortijo III Bodega 929</span> 
-                <p>Lunes a Viernes de 8:00 a 15:00 Sábado 9:00am a 14:00</p>
-                <span className="number-contact"><strong> 502 25005200</strong></span><br/>
-                <span className="number-contact"><strong> recepcion@jopcorp.com</strong></span>
+                <span><strong>Techcomm Wireless Corp S.A.</strong></span> <br/>
+                <span>Ofibodegas Coyol #1, Calle Los Llanos</span> 
+                <p>Lunes a Viernes 8:00 a 16:00</p>
+                <span className="number-contact"><strong> 506-4080-8300</strong></span><br/>
+                <span className="number-contact"><strong> backofficecr@techcommwireless.com</strong></span>
             </div>
         </div>
     </div>

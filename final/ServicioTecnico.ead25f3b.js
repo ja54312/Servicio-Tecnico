@@ -29686,11 +29686,11 @@ function ServicioTecnico() {
     className: "container-centros"
   }, /*#__PURE__*/_react.default.createElement("div", {
     className: "centro-1"
-  }, /*#__PURE__*/_react.default.createElement("h3", null, "Ciudad de Guatemala"), /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("span", null, /*#__PURE__*/_react.default.createElement("strong", null, "Solucel Guatemala")), " ", /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("span", null, "20 calle 25-55 Zona 12 Complejo Empresarial El Cortijo III Bodega 929"), /*#__PURE__*/_react.default.createElement("p", null, "Lunes a Viernes de 8:00 a 15:00 S\xE1bado 9:00am a 14:00"), /*#__PURE__*/_react.default.createElement("span", {
+  }, /*#__PURE__*/_react.default.createElement("h3", null, "Alajuela"), /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("span", null, /*#__PURE__*/_react.default.createElement("strong", null, "Techcomm Wireless Corp S.A.")), " ", /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("span", null, "Ofibodegas Coyol #1, Calle Los Llanos"), /*#__PURE__*/_react.default.createElement("p", null, "Lunes a Viernes 8:00 a 16:00"), /*#__PURE__*/_react.default.createElement("span", {
     className: "number-contact"
-  }, /*#__PURE__*/_react.default.createElement("strong", null, " 502 25005200")), /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("span", {
+  }, /*#__PURE__*/_react.default.createElement("strong", null, " 506-4080-8300")), /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("span", {
     className: "number-contact"
-  }, /*#__PURE__*/_react.default.createElement("strong", null, " recepcion@jopcorp.com"))))));
+  }, /*#__PURE__*/_react.default.createElement("strong", null, " backofficecr@techcommwireless.com"))))));
 }
 
 var entryPointMalta = document.getElementById("root");
@@ -29724,7 +29724,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "42961" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "46589" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
