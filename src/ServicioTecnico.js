@@ -42,13 +42,13 @@ export default function ServicioTecnico(){
             <h2 className="centros-title"><strong>Centros</strong> de Servicio</h2>  
         <div className="container-centros">
             <div className="centro-1">
-                <h3>Alajuela</h3>
+                <h3>San Salvador</h3>
                 <br/>
-                <span><strong>Techcomm Wireless Corp S.A.</strong></span> <br/>
-                <span>Ofibodegas Coyol #1, Calle Los Llanos</span> 
-                <p>Lunes a Viernes 8:00 a 16:00</p>
-                <span className="number-contact"><strong> 506-4080-8300</strong></span><br/>
-                <span className="number-contact"><strong> backofficecr@techcommwireless.com</strong></span>
+                <span><strong>Servicel Corporation SA de CV</strong></span> <br/>
+                <span>5a. Calle Pte. Entre 77 y 79 Av. Nte. # 4020, Col. Escalón</span> 
+                <p>Lunes a Jueves 7:30 a 17:30 Viernes 7:30 a 16:30</p>
+                <span className="number-contact"><strong> 503-2201 6100</strong></span><br/>
+                <span className="number-contact"><strong> info@servicelsv.net</strong></span>
             </div>
         </div>
     </div>

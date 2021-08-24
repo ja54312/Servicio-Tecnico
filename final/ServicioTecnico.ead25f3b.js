@@ -29686,11 +29686,11 @@ function ServicioTecnico() {
     className: "container-centros"
   }, /*#__PURE__*/_react.default.createElement("div", {
     className: "centro-1"
-  }, /*#__PURE__*/_react.default.createElement("h3", null, "Alajuela"), /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("span", null, /*#__PURE__*/_react.default.createElement("strong", null, "Techcomm Wireless Corp S.A.")), " ", /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("span", null, "Ofibodegas Coyol #1, Calle Los Llanos"), /*#__PURE__*/_react.default.createElement("p", null, "Lunes a Viernes 8:00 a 16:00"), /*#__PURE__*/_react.default.createElement("span", {
+  }, /*#__PURE__*/_react.default.createElement("h3", null, "San Salvador"), /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("span", null, /*#__PURE__*/_react.default.createElement("strong", null, "Servicel Corporation SA de CV")), " ", /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("span", null, "5a. Calle Pte. Entre 77 y 79 Av. Nte. # 4020, Col. Escal\xF3n"), /*#__PURE__*/_react.default.createElement("p", null, "Lunes a Jueves 7:30 a 17:30 Viernes 7:30 a 16:30"), /*#__PURE__*/_react.default.createElement("span", {
     className: "number-contact"
-  }, /*#__PURE__*/_react.default.createElement("strong", null, " 506-4080-8300")), /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("span", {
+  }, /*#__PURE__*/_react.default.createElement("strong", null, " 503-2201 6100")), /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("span", {
     className: "number-contact"
-  }, /*#__PURE__*/_react.default.createElement("strong", null, " backofficecr@techcommwireless.com"))))));
+  }, /*#__PURE__*/_react.default.createElement("strong", null, " info@servicelsv.net"))))));
 }
 
 var entryPointMalta = document.getElementById("root");
@@ -29724,7 +29724,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "46589" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "41707" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
