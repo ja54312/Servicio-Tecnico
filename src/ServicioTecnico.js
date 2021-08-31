@@ -42,13 +42,13 @@ export default function ServicioTecnico(){
             <h2 className="centros-title"><strong>Centros</strong> de Servicio</h2>  
         <div className="container-centros">
             <div className="centro-1">
-                <h3>San Salvador</h3>
+                <h3>Humacao</h3>
                 <br/>
-                <span><strong>Servicel Corporation SA de CV</strong></span> <br/>
-                <span>5a. Calle Pte. Entre 77 y 79 Av. Nte. # 4020, Col. Escalón</span> 
-                <p>Lunes a Jueves 7:30 a 17:30 Viernes 7:30 a 16:30</p>
-                <span className="number-contact"><strong> 503-2201 6100</strong></span><br/>
-                <span className="number-contact"><strong> info@servicelsv.net</strong></span>
+                <span><strong>Ingram Micro</strong></span> <br/>
+                <span>135 Calle Cacique Jumacao</span> 
+                <p>Lunes a Viernes 7:00 a 15:30</p>
+                <span className="number-contact"><strong> 1-787-912-0160</strong></span><br/>
+                {/* <span className="number-contact"><strong> info@servicelsv.net</strong></span> */}
             </div>
         </div>
     </div>

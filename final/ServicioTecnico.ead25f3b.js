@@ -29686,11 +29686,9 @@ function ServicioTecnico() {
     className: "container-centros"
   }, /*#__PURE__*/_react.default.createElement("div", {
     className: "centro-1"
-  }, /*#__PURE__*/_react.default.createElement("h3", null, "San Salvador"), /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("span", null, /*#__PURE__*/_react.default.createElement("strong", null, "Servicel Corporation SA de CV")), " ", /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("span", null, "5a. Calle Pte. Entre 77 y 79 Av. Nte. # 4020, Col. Escal\xF3n"), /*#__PURE__*/_react.default.createElement("p", null, "Lunes a Jueves 7:30 a 17:30 Viernes 7:30 a 16:30"), /*#__PURE__*/_react.default.createElement("span", {
+  }, /*#__PURE__*/_react.default.createElement("h3", null, "Humacao"), /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("span", null, /*#__PURE__*/_react.default.createElement("strong", null, "Ingram Micro")), " ", /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("span", null, "135 Calle Cacique Jumacao"), /*#__PURE__*/_react.default.createElement("p", null, "Lunes a Viernes 7:00 a 15:30"), /*#__PURE__*/_react.default.createElement("span", {
     className: "number-contact"
-  }, /*#__PURE__*/_react.default.createElement("strong", null, " 503-2201 6100")), /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("span", {
-    className: "number-contact"
-  }, /*#__PURE__*/_react.default.createElement("strong", null, " info@servicelsv.net"))))));
+  }, /*#__PURE__*/_react.default.createElement("strong", null, " 1-787-912-0160")), /*#__PURE__*/_react.default.createElement("br", null)))));
 }
 
 var entryPointMalta = document.getElementById("root");
@@ -29724,7 +29722,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "41707" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "44545" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
