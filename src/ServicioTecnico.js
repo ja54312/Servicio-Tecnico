@@ -42,13 +42,13 @@ export default function ServicioTecnico(){
             <h2 className="centros-title"><strong>Centros</strong> de Servicio</h2>  
         <div className="container-centros">
             <div className="centro-1">
-                <h3>Humacao</h3>
+                <h3>Santo Domingo</h3>
                 <br/>
-                <span><strong>Ingram Micro</strong></span> <br/>
-                <span>135 Calle Cacique Jumacao</span> 
-                <p>Lunes a Viernes 7:00 a 15:30</p>
-                <span className="number-contact"><strong> 1-787-912-0160</strong></span><br/>
-                {/* <span className="number-contact"><strong> info@servicelsv.net</strong></span> */}
+                <span><strong>Techcomm Wireless</strong></span> <br/>
+                <span>Casa Central C/ La Sonrisa #8A, Pantoja</span> 
+                <p>Lunes a Viernes 9:00 a 18:00 Sábado 9:00 a 14:00</p>
+                <span className="number-contact"><strong> 809-332-1042</strong></span><br/>
+                <span className="number-contact"><strong> info@techcommwireless.com</strong></span>
             </div>
         </div>
     </div>

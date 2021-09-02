@@ -29686,9 +29686,11 @@ function ServicioTecnico() {
     className: "container-centros"
   }, /*#__PURE__*/_react.default.createElement("div", {
     className: "centro-1"
-  }, /*#__PURE__*/_react.default.createElement("h3", null, "Humacao"), /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("span", null, /*#__PURE__*/_react.default.createElement("strong", null, "Ingram Micro")), " ", /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("span", null, "135 Calle Cacique Jumacao"), /*#__PURE__*/_react.default.createElement("p", null, "Lunes a Viernes 7:00 a 15:30"), /*#__PURE__*/_react.default.createElement("span", {
+  }, /*#__PURE__*/_react.default.createElement("h3", null, "Santo Domingo"), /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("span", null, /*#__PURE__*/_react.default.createElement("strong", null, "Techcomm Wireless")), " ", /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("span", null, "Casa Central C/ La Sonrisa #8A, Pantoja"), /*#__PURE__*/_react.default.createElement("p", null, "Lunes a Viernes 9:00 a 18:00 S\xE1bado 9:00 a 14:00"), /*#__PURE__*/_react.default.createElement("span", {
     className: "number-contact"
-  }, /*#__PURE__*/_react.default.createElement("strong", null, " 1-787-912-0160")), /*#__PURE__*/_react.default.createElement("br", null)))));
+  }, /*#__PURE__*/_react.default.createElement("strong", null, " 809-332-1042")), /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("span", {
+    className: "number-contact"
+  }, /*#__PURE__*/_react.default.createElement("strong", null, " info@techcommwireless.com"))))));
 }
 
 var entryPointMalta = document.getElementById("root");
@@ -29722,7 +29724,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "44545" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "34949" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
