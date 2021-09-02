@@ -40,18 +40,24 @@ export default function ServicioTecnico(){
         </div>
         <div className="container-centros">
             <div className="centro-1">
-                <h3>A-NOVO</h3>
+                <h3>Tegucigalpa</h3>
                 <br/>
-                <span><strong>(Antel, Claro, Retail)</strong></span> 
-                <p>Durazno 1334</p>
-                <span className="number-contact"><strong>2908 7003</strong></span>
+                <span><strong>Distritel</strong></span><br/>
+                <span>Col. Monte Carlos , Bloque H, Lote 21</span> 
+                <p className="clase1">Lunes a Jueves 8:00 a 18:00 Viernes 8:00 a 17:00</p>
+                <span className="number-contact"><strong>504 2236-7462</strong></span>
+                <br/>
+                <span className="number-contact"><strong>recepciontgu@gruposervicel.com</strong></span>
             </div>
             <div className="centro-2">
-            <h3>BGH</h3>
+            <h3>Tegucigalpa</h3>
                 <br/>
-                <span><strong>(Movistar)</strong></span> 
-                <p>Mercedes 935</p>
-                <span className="number-contact"><strong>2903 1876</strong></span>
+                <span><strong>Cetrel (Exlusivo Tigo)</strong></span> <br/>
+                <span>Colonia Palmira, Avenida Rep. de Panamá, #2024, contiguo a Hotel Edén</span> 
+                <p className="clase2">Lunes a Viernes 9:00 a 18:00 Sábado 9:00 a 13:00</p>
+                <span className="number-contact"><strong>504 2220-0408</strong></span>
+                <br/>
+                <span className="number-contact"><strong>logisticacentral@cetrelhn.com</strong></span>
             </div>
         </div>
     </div>

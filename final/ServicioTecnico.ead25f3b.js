@@ -29683,13 +29683,21 @@ function ServicioTecnico() {
     className: "container-centros"
   }, /*#__PURE__*/_react.default.createElement("div", {
     className: "centro-1"
-  }, /*#__PURE__*/_react.default.createElement("h3", null, "A-NOVO"), /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("span", null, /*#__PURE__*/_react.default.createElement("strong", null, "(Antel, Claro, Retail)")), /*#__PURE__*/_react.default.createElement("p", null, "Durazno 1334"), /*#__PURE__*/_react.default.createElement("span", {
+  }, /*#__PURE__*/_react.default.createElement("h3", null, "Tegucigalpa"), /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("span", null, /*#__PURE__*/_react.default.createElement("strong", null, "Distritel")), /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("span", null, "Col. Monte Carlos , Bloque H, Lote 21"), /*#__PURE__*/_react.default.createElement("p", {
+    className: "clase1"
+  }, "Lunes a Jueves 8:00 a 18:00 Viernes 8:00 a 17:00"), /*#__PURE__*/_react.default.createElement("span", {
     className: "number-contact"
-  }, /*#__PURE__*/_react.default.createElement("strong", null, "2908 7003"))), /*#__PURE__*/_react.default.createElement("div", {
+  }, /*#__PURE__*/_react.default.createElement("strong", null, "504 2236-7462")), /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("span", {
+    className: "number-contact"
+  }, /*#__PURE__*/_react.default.createElement("strong", null, "recepciontgu@gruposervicel.com"))), /*#__PURE__*/_react.default.createElement("div", {
     className: "centro-2"
-  }, /*#__PURE__*/_react.default.createElement("h3", null, "BGH"), /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("span", null, /*#__PURE__*/_react.default.createElement("strong", null, "(Movistar)")), /*#__PURE__*/_react.default.createElement("p", null, "Mercedes 935"), /*#__PURE__*/_react.default.createElement("span", {
+  }, /*#__PURE__*/_react.default.createElement("h3", null, "Tegucigalpa"), /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("span", null, /*#__PURE__*/_react.default.createElement("strong", null, "Cetrel (Exlusivo Tigo)")), " ", /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("span", null, "Colonia Palmira, Avenida Rep. de Panam\xE1, #2024, contiguo a Hotel Ed\xE9n"), /*#__PURE__*/_react.default.createElement("p", {
+    className: "clase2"
+  }, "Lunes a Viernes 9:00 a 18:00 S\xE1bado 9:00 a 13:00"), /*#__PURE__*/_react.default.createElement("span", {
     className: "number-contact"
-  }, /*#__PURE__*/_react.default.createElement("strong", null, "2903 1876"))))));
+  }, /*#__PURE__*/_react.default.createElement("strong", null, "504 2220-0408")), /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("span", {
+    className: "number-contact"
+  }, /*#__PURE__*/_react.default.createElement("strong", null, "logisticacentral@cetrelhn.com"))))));
 }
 
 var entryPointMalta = document.getElementById("root");
@@ -29723,7 +29731,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "40189" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "39673" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

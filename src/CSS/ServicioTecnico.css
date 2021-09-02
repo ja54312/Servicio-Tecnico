@@ -47,11 +47,11 @@ hr {
     justify-content: center;
 }
 .centro-1{
-    height:170px;
-    width: 250px;
+    height: 220px;
+    width: 400px;
     background: rgb(6,35,59);
     background: linear-gradient(90deg, rgba(6,35,59,1) 0%, rgba(10,26,46,1) 35%, rgba(8,23,38,1) 100%);
-    margin:0 100px;
+    margin: 0 100px;
     text-align: center;
 }
 .container-centros h3{
@@ -61,7 +61,7 @@ hr {
 .container-centros span{
     justify-self: center;
 }
-.container-centros p{
+.container-centros .clase1{
     margin-top: 10px;
     margin-bottom: 35px;
     color:#616D77;
@@ -71,12 +71,17 @@ hr {
     color:#00639f;
 }
 .centro-2{
-    height:170px;
-    width: 250px;
+    height: 220px;
+    width: 400px;
     background: rgb(6,35,59);
     background: linear-gradient(90deg, rgba(6,35,59,1) 0%, rgba(10,26,46,1) 35%, rgba(8,23,38,1) 100%);
-    margin:0 100px;
+    margin: 0 100px;
     text-align: center;
+}
+.container-centros .clase2{
+    margin-top: 10px;
+    margin-bottom: 15px;
+    color:#616D77;
 }
 @media only screen and (max-width: 767px){
 .container-logos {
@@ -93,6 +98,12 @@ hr {
 hr {
     height: 80px;
 }
+.centro-1{
+    height: 240px;
+}
+.centro-2{
+    height: 240px;
+}
 }
 @media screen and (max-width: 425px){
     .container-centros{
@@ -102,6 +113,6 @@ hr {
         margin: 15px 50px;
     }
     .centro-2{
-        margin: 0px 50px;
+        margin: 0px 30px;
     }
 }
